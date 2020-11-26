@@ -1,0 +1,65 @@
+root:
+  h1a: # 100Mbps
+    host: h1
+    interface: h1-eth0
+    start: 0
+    stop: 4
+    step: 0.01
+    number: 1250
+    packet: h1h8l800b
+  h1b: # 100Mbps
+    host: h1
+    interface: h1-eth0
+    start: 10
+    stop: 60
+    step: 0.01
+    number: 1250
+    packet: h1h8l800b
+  h2a: # 200Mbps
+    host: h2
+    interface: h2-eth0
+    start: 12
+    stop: 17
+    step: 0.01
+    number: 2500
+    packet: h2h7l800b
+  h2b: # 200Mbps
+    host: h2
+    interface: h2-eth0
+    start: 23
+    stop: 28
+    step: 0.01
+    number: 2500
+    packet: h2h7l800b
+  h2c: # 500Mbps
+    host: h2
+    interface: h2-eth0
+    start: 30
+    stop: 33
+    step: 0.01
+    number: 6250
+    packet: h2h7l800b
+  h2d: # 500Mbps
+    host: h2
+    interface: h2-eth0
+    start: 35
+    stop: 38
+    step: 0.01
+    number: 6250
+    packet: h2h7l800b
+  h2e: # 500Mbps
+    host: h2
+    interface: h2-eth0
+    start: 48
+    stop: 53
+    step: 0.01
+    number: 6250
+    packet: h2h7l800b
+  h3a: # 200Mbps
+    host: h3
+    interface: h3-eth0
+    start: 14
+    stop: 25
+    step: 0.01
+    number: 2500
+    packet: h3h6l800b

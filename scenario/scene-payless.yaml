@@ -1,0 +1,78 @@
+# scene overview
+# H1->H8
+#  (a)   0-4, 10Mbps
+#  (b) 10-60, 10Mbps
+# H2->H7
+#  (a) 12-17, 20Mbps
+#  (b) 23-28, 20Mbps
+#  (c) 30-33, 50Mbps
+#  (d) 35-38, 50Mbps
+#  (e) 48-53, 50Mbps
+# H3->H6
+#  (a) 14-25, 20Mbps
+
+root:
+  h1a: # 10Mbps
+    host: h1
+    interface: h1-eth0
+    start: 0
+    stop: 4
+    step: 0.01
+    number: 125
+    packet: h1h8l800b
+  h1b: # 10Mbps
+    host: h1
+    interface: h1-eth0
+    start: 10
+    stop: 60
+    step: 0.01
+    number: 125
+    packet: h1h8l800b
+  h2a: # 20Mbps
+    host: h2
+    interface: h2-eth0
+    start: 12
+    stop: 17
+    step: 0.01
+    number: 250
+    packet: h2h7l800b
+  h2b: # 20Mbps
+    host: h2
+    interface: h2-eth0
+    start: 23
+    stop: 28
+    step: 0.01
+    number: 250
+    packet: h2h7l800b
+  h2c: # 50Mbps
+    host: h2
+    interface: h2-eth0
+    start: 30
+    stop: 33
+    step: 0.01
+    number: 625
+    packet: h2h7l800b
+  h2d: # 50Mbps
+    host: h2
+    interface: h2-eth0
+    start: 35
+    stop: 38
+    step: 0.01
+    number: 625
+    packet: h2h7l800b
+  h2e: # 50Mbps
+    host: h2
+    interface: h2-eth0
+    start: 48
+    stop: 53
+    step: 0.01
+    number: 625
+    packet: h2h7l800b
+  h3a: # 20Mbps
+    host: h3
+    interface: h3-eth0
+    start: 14
+    stop: 25
+    step: 0.01
+    number: 250
+    packet: h3h6l800b

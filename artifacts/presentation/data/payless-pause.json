@@ -1,0 +1,5747 @@
+{
+    "algorithm": "payless-single-thread", 
+    "flow_info": {
+        "0": {
+            "flow_id": 0, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 7
+        }, 
+        "1": {
+            "flow_id": 1, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 4
+        }, 
+        "2": {
+            "flow_id": 2, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 2
+        }, 
+        "3": {
+            "flow_id": 3, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 6
+        }, 
+        "4": {
+            "flow_id": 4, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 1
+        }, 
+        "5": {
+            "flow_id": 5, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 5
+        }, 
+        "6": {
+            "flow_id": 6, 
+            "ipv4_dst": null, 
+            "ipv4_src": null, 
+            "switch_id": 3
+        }, 
+        "7": {
+            "flow_id": 7, 
+            "ipv4_dst": [
+                "88.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "11.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 4
+        }, 
+        "8": {
+            "flow_id": 8, 
+            "ipv4_dst": [
+                "88.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "11.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 2
+        }, 
+        "9": {
+            "flow_id": 9, 
+            "ipv4_dst": [
+                "88.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "11.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 1
+        }, 
+        "10": {
+            "flow_id": 10, 
+            "ipv4_dst": [
+                "88.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "11.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 3
+        }, 
+        "11": {
+            "flow_id": 11, 
+            "ipv4_dst": [
+                "88.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "11.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 7
+        }, 
+        "12": {
+            "flow_id": 12, 
+            "ipv4_dst": [
+                "77.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "22.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 4
+        }, 
+        "13": {
+            "flow_id": 13, 
+            "ipv4_dst": [
+                "77.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "22.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 2
+        }, 
+        "14": {
+            "flow_id": 14, 
+            "ipv4_dst": [
+                "77.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "22.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 1
+        }, 
+        "15": {
+            "flow_id": 15, 
+            "ipv4_dst": [
+                "77.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "22.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 3
+        }, 
+        "16": {
+            "flow_id": 16, 
+            "ipv4_dst": [
+                "77.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "ipv4_src": [
+                "22.0.0.0", 
+                "255.0.0.0"
+            ], 
+            "switch_id": 7
+        }
+    }, 
+    "flow_stats": {
+        "0": {
+            "1595944605.593368": {
+                "bytes": 210, 
+                "duration": 2788, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.486116": {
+                "bytes": 7210, 
+                "duration": 5583, 
+                "total_bytes": 210, 
+                "total_duration": 2788
+            }, 
+            "1595944613.486134": {
+                "bytes": 0, 
+                "duration": 2239, 
+                "total_bytes": 7420, 
+                "total_duration": 8371
+            }, 
+            "1595944613.906583": {
+                "bytes": 0, 
+                "duration": 491, 
+                "total_bytes": 7420, 
+                "total_duration": 10610
+            }, 
+            "1595944614.407144": {
+                "bytes": 0, 
+                "duration": 500, 
+                "total_bytes": 7420, 
+                "total_duration": 11101
+            }, 
+            "1595944614.908347": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 7420, 
+                "total_duration": 11601
+            }, 
+            "1595944618.177598": {
+                "bytes": 500, 
+                "duration": 534, 
+                "total_bytes": 7420, 
+                "total_duration": 12102
+            }, 
+            "1595944618.177622": {
+                "bytes": 0, 
+                "duration": 516, 
+                "total_bytes": 7920, 
+                "total_duration": 12636
+            }, 
+            "1595944618.177644": {
+                "bytes": 0, 
+                "duration": 530, 
+                "total_bytes": 7920, 
+                "total_duration": 13152
+            }, 
+            "1595944618.177664": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 7920, 
+                "total_duration": 13682
+            }, 
+            "1595944618.177691": {
+                "bytes": 0, 
+                "duration": 298, 
+                "total_bytes": 7920, 
+                "total_duration": 13900
+            }, 
+            "1595944618.177714": {
+                "bytes": 0, 
+                "duration": 508, 
+                "total_bytes": 7920, 
+                "total_duration": 14198
+            }, 
+            "1595944618.177736": {
+                "bytes": 0, 
+                "duration": 512, 
+                "total_bytes": 7920, 
+                "total_duration": 14706
+            }, 
+            "1595944618.407424": {
+                "bytes": 0, 
+                "duration": 382, 
+                "total_bytes": 7920, 
+                "total_duration": 15218
+            }, 
+            "1595944618.508779": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 7920, 
+                "total_duration": 15600
+            }, 
+            "1595944618.5088": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 7920, 
+                "total_duration": 15702
+            }, 
+            "1595944620.935544": {
+                "bytes": 0, 
+                "duration": 2425, 
+                "total_bytes": 7920, 
+                "total_duration": 15702
+            }, 
+            "1595944620.935586": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 7920, 
+                "total_duration": 18127
+            }, 
+            "1595944621.503034": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 7920, 
+                "total_duration": 18127
+            }, 
+            "1595944621.503074": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 7920, 
+                "total_duration": 18694
+            }, 
+            "1595944622.501859": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 7920, 
+                "total_duration": 18694
+            }, 
+            "1595944622.515193": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 7920, 
+                "total_duration": 19694
+            }, 
+            "1595944623.409308": {
+                "bytes": 0, 
+                "duration": 893, 
+                "total_bytes": 7920, 
+                "total_duration": 19708
+            }, 
+            "1595944623.409347": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 7920, 
+                "total_duration": 20601
+            }, 
+            "1595944623.502575": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 7920, 
+                "total_duration": 20601
+            }, 
+            "1595944624.939254": {
+                "bytes": 0, 
+                "duration": 1437, 
+                "total_bytes": 7920, 
+                "total_duration": 20695
+            }, 
+            "1595944625.018075": {
+                "bytes": 0, 
+                "duration": 78, 
+                "total_bytes": 7920, 
+                "total_duration": 22132
+            }, 
+            "1595944625.505124": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 7920, 
+                "total_duration": 22210
+            }, 
+            "1595944626.938464": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 7920, 
+                "total_duration": 22696
+            }, 
+            "1595944628.407881": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 7920, 
+                "total_duration": 24132
+            }, 
+            "1595944633.40835": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 7920, 
+                "total_duration": 25602
+            }, 
+            "1595944638.411914": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 7920, 
+                "total_duration": 30602
+            }, 
+            "1595944643.412385": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 7920, 
+                "total_duration": 35606
+            }, 
+            "1595944648.414695": {
+                "bytes": 600, 
+                "duration": 3580, 
+                "total_bytes": 7920, 
+                "total_duration": 40606
+            }, 
+            "1595944648.420877": {
+                "bytes": 0, 
+                "duration": 1428, 
+                "total_bytes": 8520, 
+                "total_duration": 44186
+            }, 
+            "1595944648.517666": {
+                "bytes": 0, 
+                "duration": 98, 
+                "total_bytes": 8520, 
+                "total_duration": 45614
+            }, 
+            "1595944649.696345": {
+                "bytes": 0, 
+                "duration": 1179, 
+                "total_bytes": 8520, 
+                "total_duration": 45712
+            }, 
+            "1595944649.748835": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 8520, 
+                "total_duration": 46891
+            }, 
+            "1595944652.492236": {
+                "bytes": 100, 
+                "duration": 958, 
+                "total_bytes": 8520, 
+                "total_duration": 46943
+            }, 
+            "1595944652.492558": {
+                "bytes": 0, 
+                "duration": 1011, 
+                "total_bytes": 8620, 
+                "total_duration": 47901
+            }, 
+            "1595944652.524925": {
+                "bytes": 0, 
+                "duration": 767, 
+                "total_bytes": 8620, 
+                "total_duration": 48912
+            }, 
+            "1595944652.822722": {
+                "bytes": 0, 
+                "duration": 337, 
+                "total_bytes": 8620, 
+                "total_duration": 49679
+            }, 
+            "1595944652.822748": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 50016
+            }, 
+            "1595944653.414663": {
+                "bytes": 0, 
+                "duration": 593, 
+                "total_bytes": 8620, 
+                "total_duration": 50016
+            }, 
+            "1595944653.825545": {
+                "bytes": 0, 
+                "duration": 408, 
+                "total_bytes": 8620, 
+                "total_duration": 50609
+            }, 
+            "1595944653.825586": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 51017
+            }, 
+            "1595944654.702928": {
+                "bytes": 0, 
+                "duration": 877, 
+                "total_bytes": 8620, 
+                "total_duration": 51017
+            }, 
+            "1595944654.70297": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 51894
+            }, 
+            "1595944655.703581": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 8620, 
+                "total_duration": 51894
+            }, 
+            "1595944655.703627": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 52895
+            }, 
+            "1595944656.706554": {
+                "bytes": 0, 
+                "duration": 1002, 
+                "total_bytes": 8620, 
+                "total_duration": 52895
+            }, 
+            "1595944656.706608": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 53897
+            }, 
+            "1595944657.646635": {
+                "bytes": 0, 
+                "duration": 941, 
+                "total_bytes": 8620, 
+                "total_duration": 53897
+            }, 
+            "1595944657.86477": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 8620, 
+                "total_duration": 54838
+            }, 
+            "1595944658.370606": {
+                "bytes": 0, 
+                "duration": 506, 
+                "total_bytes": 8620, 
+                "total_duration": 55057
+            }, 
+            "1595944658.419956": {
+                "bytes": 0, 
+                "duration": 49, 
+                "total_bytes": 8620, 
+                "total_duration": 55563
+            }, 
+            "1595944658.419997": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 55612
+            }, 
+            "1595944658.992028": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 8620, 
+                "total_duration": 55612
+            }, 
+            "1595944659.370596": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 8620, 
+                "total_duration": 56184
+            }, 
+            "1595944659.872204": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 8620, 
+                "total_duration": 56563
+            }, 
+            "1595944660.373601": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 8620, 
+                "total_duration": 57064
+            }, 
+            "1595944660.702843": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 8620, 
+                "total_duration": 57565
+            }, 
+            "1595944660.99223": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 8620, 
+                "total_duration": 57896
+            }, 
+            "1595944661.642407": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 8620, 
+                "total_duration": 58185
+            }, 
+            "1595944663.419936": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 8620, 
+                "total_duration": 58837
+            }, 
+            "1595944663.419969": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8620, 
+                "total_duration": 60613
+            }, 
+            "1595944668.418803": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 8620, 
+                "total_duration": 60613
+            }
+        }, 
+        "1": {
+            "1595944605.594332": {
+                "bytes": 140, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944611.205274": {
+                "bytes": 310, 
+                "duration": 5582, 
+                "total_bytes": 140, 
+                "total_duration": 2785
+            }, 
+            "1595944613.46217": {
+                "bytes": 0, 
+                "duration": 2240, 
+                "total_bytes": 450, 
+                "total_duration": 8367
+            }, 
+            "1595944613.907129": {
+                "bytes": 0, 
+                "duration": 491, 
+                "total_bytes": 450, 
+                "total_duration": 10607
+            }, 
+            "1595944614.4077": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 450, 
+                "total_duration": 11098
+            }, 
+            "1595944614.90978": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 450, 
+                "total_duration": 11599
+            }, 
+            "1595944616.562755": {
+                "bytes": 100, 
+                "duration": 533, 
+                "total_bytes": 450, 
+                "total_duration": 12100
+            }, 
+            "1595944616.563937": {
+                "bytes": 0, 
+                "duration": 516, 
+                "total_bytes": 550, 
+                "total_duration": 12633
+            }, 
+            "1595944616.565097": {
+                "bytes": 0, 
+                "duration": 529, 
+                "total_bytes": 550, 
+                "total_duration": 13149
+            }, 
+            "1595944617.034623": {
+                "bytes": 0, 
+                "duration": 500, 
+                "total_bytes": 550, 
+                "total_duration": 13678
+            }, 
+            "1595944617.057557": {
+                "bytes": 0, 
+                "duration": 18, 
+                "total_bytes": 550, 
+                "total_duration": 14178
+            }, 
+            "1595944618.407455": {
+                "bytes": 0, 
+                "duration": 1401, 
+                "total_bytes": 550, 
+                "total_duration": 14196
+            }, 
+            "1595944618.507389": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 550, 
+                "total_duration": 15597
+            }, 
+            "1595944618.507408": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 550, 
+                "total_duration": 15698
+            }, 
+            "1595944620.935619": {
+                "bytes": 0, 
+                "duration": 2426, 
+                "total_bytes": 550, 
+                "total_duration": 15698
+            }, 
+            "1595944620.935661": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 550, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503281": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 550, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503324": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 550, 
+                "total_duration": 18691
+            }, 
+            "1595944622.501893": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 550, 
+                "total_duration": 18691
+            }, 
+            "1595944622.513961": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 550, 
+                "total_duration": 19691
+            }, 
+            "1595944623.409463": {
+                "bytes": 0, 
+                "duration": 893, 
+                "total_bytes": 550, 
+                "total_duration": 19705
+            }, 
+            "1595944623.409502": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 550, 
+                "total_duration": 20598
+            }, 
+            "1595944623.502613": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 550, 
+                "total_duration": 20598
+            }, 
+            "1595944624.939327": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 550, 
+                "total_duration": 20692
+            }, 
+            "1595944625.018006": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 550, 
+                "total_duration": 22128
+            }, 
+            "1595944625.505497": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 550, 
+                "total_duration": 22208
+            }, 
+            "1595944626.938414": {
+                "bytes": 0, 
+                "duration": 1434, 
+                "total_bytes": 550, 
+                "total_duration": 22694
+            }, 
+            "1595944628.409312": {
+                "bytes": 0, 
+                "duration": 1471, 
+                "total_bytes": 550, 
+                "total_duration": 24128
+            }, 
+            "1595944633.40838": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 550, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412793": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 550, 
+                "total_duration": 30599
+            }, 
+            "1595944643.412402": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 550, 
+                "total_duration": 35603
+            }, 
+            "1595944647.021195": {
+                "bytes": 100, 
+                "duration": 3558, 
+                "total_bytes": 550, 
+                "total_duration": 40604
+            }, 
+            "1595944648.420891": {
+                "bytes": 0, 
+                "duration": 1449, 
+                "total_bytes": 650, 
+                "total_duration": 44162
+            }, 
+            "1595944648.420906": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 650, 
+                "total_duration": 45611
+            }, 
+            "1595944649.696993": {
+                "bytes": 0, 
+                "duration": 1277, 
+                "total_bytes": 650, 
+                "total_duration": 45611
+            }, 
+            "1595944649.749573": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 650, 
+                "total_duration": 46888
+            }, 
+            "1595944650.754075": {
+                "bytes": 100, 
+                "duration": 958, 
+                "total_bytes": 650, 
+                "total_duration": 46940
+            }, 
+            "1595944650.840682": {
+                "bytes": 0, 
+                "duration": 86, 
+                "total_bytes": 750, 
+                "total_duration": 47898
+            }, 
+            "1595944651.765507": {
+                "bytes": 0, 
+                "duration": 924, 
+                "total_bytes": 750, 
+                "total_duration": 47984
+            }, 
+            "1595944651.874755": {
+                "bytes": 0, 
+                "duration": 110, 
+                "total_bytes": 750, 
+                "total_duration": 48908
+            }, 
+            "1595944652.366602": {
+                "bytes": 0, 
+                "duration": 497, 
+                "total_bytes": 750, 
+                "total_duration": 49018
+            }, 
+            "1595944652.367504": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 49515
+            }, 
+            "1595944652.698858": {
+                "bytes": 0, 
+                "duration": 375, 
+                "total_bytes": 750, 
+                "total_duration": 49515
+            }, 
+            "1595944652.698877": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 49890
+            }, 
+            "1595944653.415669": {
+                "bytes": 0, 
+                "duration": 716, 
+                "total_bytes": 750, 
+                "total_duration": 49890
+            }, 
+            "1595944654.229739": {
+                "bytes": 0, 
+                "duration": 815, 
+                "total_bytes": 750, 
+                "total_duration": 50606
+            }, 
+            "1595944654.229779": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 51421
+            }, 
+            "1595944654.702852": {
+                "bytes": 0, 
+                "duration": 470, 
+                "total_bytes": 750, 
+                "total_duration": 51421
+            }, 
+            "1595944654.702893": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703664": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 750, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703711": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706449": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 750, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706503": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 53892
+            }, 
+            "1595944657.645152": {
+                "bytes": 0, 
+                "duration": 943, 
+                "total_bytes": 750, 
+                "total_duration": 53892
+            }, 
+            "1595944657.863424": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 750, 
+                "total_duration": 54835
+            }, 
+            "1595944658.370639": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 750, 
+                "total_duration": 55054
+            }, 
+            "1595944658.419842": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 750, 
+                "total_duration": 55559
+            }, 
+            "1595944658.419879": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 55609
+            }, 
+            "1595944658.991946": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 750, 
+                "total_duration": 55609
+            }, 
+            "1595944659.370701": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 750, 
+                "total_duration": 56181
+            }, 
+            "1595944659.870389": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 750, 
+                "total_duration": 56560
+            }, 
+            "1595944660.374182": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 750, 
+                "total_duration": 57061
+            }, 
+            "1595944660.702894": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 750, 
+                "total_duration": 57562
+            }, 
+            "1595944660.992258": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 750, 
+                "total_duration": 57893
+            }, 
+            "1595944661.643029": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 750, 
+                "total_duration": 58182
+            }, 
+            "1595944663.42005": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 750, 
+                "total_duration": 58834
+            }, 
+            "1595944663.420078": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 750, 
+                "total_duration": 60610
+            }, 
+            "1595944668.41882": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 750, 
+                "total_duration": 60610
+            }
+        }, 
+        "2": {
+            "1595944605.594265": {
+                "bytes": 70, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.420994": {
+                "bytes": 310, 
+                "duration": 5582, 
+                "total_bytes": 70, 
+                "total_duration": 2785
+            }, 
+            "1595944613.462159": {
+                "bytes": 0, 
+                "duration": 2240, 
+                "total_bytes": 380, 
+                "total_duration": 8367
+            }, 
+            "1595944613.907105": {
+                "bytes": 0, 
+                "duration": 491, 
+                "total_bytes": 380, 
+                "total_duration": 10607
+            }, 
+            "1595944614.40769": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 380, 
+                "total_duration": 11098
+            }, 
+            "1595944614.909721": {
+                "bytes": 0, 
+                "duration": 500, 
+                "total_bytes": 380, 
+                "total_duration": 11599
+            }, 
+            "1595944618.15097": {
+                "bytes": 800, 
+                "duration": 534, 
+                "total_bytes": 380, 
+                "total_duration": 12099
+            }, 
+            "1595944618.151281": {
+                "bytes": 0, 
+                "duration": 515, 
+                "total_bytes": 1180, 
+                "total_duration": 12633
+            }, 
+            "1595944618.151583": {
+                "bytes": 0, 
+                "duration": 529, 
+                "total_bytes": 1180, 
+                "total_duration": 13148
+            }, 
+            "1595944618.151894": {
+                "bytes": 0, 
+                "duration": 220, 
+                "total_bytes": 1180, 
+                "total_duration": 13677
+            }, 
+            "1595944618.15224": {
+                "bytes": 0, 
+                "duration": 281, 
+                "total_bytes": 1180, 
+                "total_duration": 13897
+            }, 
+            "1595944618.152571": {
+                "bytes": 0, 
+                "duration": 524, 
+                "total_bytes": 1180, 
+                "total_duration": 14178
+            }, 
+            "1595944618.153158": {
+                "bytes": 0, 
+                "duration": 512, 
+                "total_bytes": 1180, 
+                "total_duration": 14702
+            }, 
+            "1595944618.407405": {
+                "bytes": 0, 
+                "duration": 383, 
+                "total_bytes": 1180, 
+                "total_duration": 15214
+            }, 
+            "1595944618.508823": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 1180, 
+                "total_duration": 15597
+            }, 
+            "1595944618.508844": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1180, 
+                "total_duration": 15699
+            }, 
+            "1595944620.93278": {
+                "bytes": 0, 
+                "duration": 2424, 
+                "total_bytes": 1180, 
+                "total_duration": 15699
+            }, 
+            "1595944620.932819": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 1180, 
+                "total_duration": 18123
+            }, 
+            "1595944621.500426": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 1180, 
+                "total_duration": 18124
+            }, 
+            "1595944621.500466": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1180, 
+                "total_duration": 18691
+            }, 
+            "1595944622.500175": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 1180, 
+                "total_duration": 18691
+            }, 
+            "1595944622.514006": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 1180, 
+                "total_duration": 19691
+            }, 
+            "1595944623.409385": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 1180, 
+                "total_duration": 19705
+            }, 
+            "1595944623.409429": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1180, 
+                "total_duration": 20599
+            }, 
+            "1595944623.50109": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 1180, 
+                "total_duration": 20599
+            }, 
+            "1595944624.93936": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 1180, 
+                "total_duration": 20692
+            }, 
+            "1595944625.017935": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 1180, 
+                "total_duration": 22128
+            }, 
+            "1595944625.50463": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 1180, 
+                "total_duration": 22208
+            }, 
+            "1595944626.937285": {
+                "bytes": 0, 
+                "duration": 1434, 
+                "total_bytes": 1180, 
+                "total_duration": 22694
+            }, 
+            "1595944628.409282": {
+                "bytes": 0, 
+                "duration": 1471, 
+                "total_bytes": 1180, 
+                "total_duration": 24128
+            }, 
+            "1595944633.408366": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 1180, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412778": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 1180, 
+                "total_duration": 30599
+            }, 
+            "1595944643.412359": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 1180, 
+                "total_duration": 35603
+            }, 
+            "1595944648.420809": {
+                "bytes": 100, 
+                "duration": 3579, 
+                "total_bytes": 1180, 
+                "total_duration": 40603
+            }, 
+            "1595944648.420829": {
+                "bytes": 0, 
+                "duration": 1429, 
+                "total_bytes": 1280, 
+                "total_duration": 44182
+            }, 
+            "1595944648.517881": {
+                "bytes": 0, 
+                "duration": 98, 
+                "total_bytes": 1280, 
+                "total_duration": 45611
+            }, 
+            "1595944649.696967": {
+                "bytes": 0, 
+                "duration": 1179, 
+                "total_bytes": 1280, 
+                "total_duration": 45709
+            }, 
+            "1595944649.749544": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 1280, 
+                "total_duration": 46888
+            }, 
+            "1595944652.240189": {
+                "bytes": 100, 
+                "duration": 958, 
+                "total_bytes": 1280, 
+                "total_duration": 46940
+            }, 
+            "1595944652.24107": {
+                "bytes": 0, 
+                "duration": 1010, 
+                "total_bytes": 1380, 
+                "total_duration": 47898
+            }, 
+            "1595944652.366632": {
+                "bytes": 0, 
+                "duration": 607, 
+                "total_bytes": 1380, 
+                "total_duration": 48908
+            }, 
+            "1595944652.821566": {
+                "bytes": 0, 
+                "duration": 498, 
+                "total_bytes": 1380, 
+                "total_duration": 49515
+            }, 
+            "1595944652.821586": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 50013
+            }, 
+            "1595944653.415596": {
+                "bytes": 0, 
+                "duration": 593, 
+                "total_bytes": 1380, 
+                "total_duration": 50013
+            }, 
+            "1595944653.823358": {
+                "bytes": 0, 
+                "duration": 408, 
+                "total_bytes": 1380, 
+                "total_duration": 50606
+            }, 
+            "1595944653.823399": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 51014
+            }, 
+            "1595944654.700119": {
+                "bytes": 0, 
+                "duration": 877, 
+                "total_bytes": 1380, 
+                "total_duration": 51014
+            }, 
+            "1595944654.700169": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 51891
+            }, 
+            "1595944655.700733": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 1380, 
+                "total_duration": 51891
+            }, 
+            "1595944655.700774": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 1380, 
+                "total_duration": 52891
+            }, 
+            "1595944656.706348": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 1380, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706396": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 53893
+            }, 
+            "1595944657.645085": {
+                "bytes": 0, 
+                "duration": 942, 
+                "total_bytes": 1380, 
+                "total_duration": 53893
+            }, 
+            "1595944657.863381": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 1380, 
+                "total_duration": 54835
+            }, 
+            "1595944658.37049": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 1380, 
+                "total_duration": 55054
+            }, 
+            "1595944658.420031": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 1380, 
+                "total_duration": 55559
+            }, 
+            "1595944658.420073": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 55609
+            }, 
+            "1595944658.990184": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 1380, 
+                "total_duration": 55609
+            }, 
+            "1595944659.369151": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 1380, 
+                "total_duration": 56181
+            }, 
+            "1595944659.870449": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 1380, 
+                "total_duration": 56560
+            }, 
+            "1595944660.373912": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 1380, 
+                "total_duration": 57061
+            }, 
+            "1595944660.701777": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 1380, 
+                "total_duration": 57562
+            }, 
+            "1595944660.991068": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 1380, 
+                "total_duration": 57893
+            }, 
+            "1595944661.642983": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 1380, 
+                "total_duration": 58182
+            }, 
+            "1595944663.419994": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 1380, 
+                "total_duration": 58834
+            }, 
+            "1595944663.420026": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 1380, 
+                "total_duration": 60610
+            }, 
+            "1595944668.418777": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 1380, 
+                "total_duration": 60610
+            }
+        }, 
+        "3": {
+            "1595944605.594351": {
+                "bytes": 140, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462189": {
+                "bytes": 210, 
+                "duration": 7823, 
+                "total_bytes": 140, 
+                "total_duration": 2785
+            }, 
+            "1595944618.407432": {
+                "bytes": 0, 
+                "duration": 4990, 
+                "total_bytes": 350, 
+                "total_duration": 10608
+            }, 
+            "1595944623.411037": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 350, 
+                "total_duration": 15598
+            }, 
+            "1595944628.409391": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 350, 
+                "total_duration": 20599
+            }, 
+            "1595944633.408816": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 350, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412763": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 350, 
+                "total_duration": 30599
+            }, 
+            "1595944643.412953": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 350, 
+                "total_duration": 35603
+            }, 
+            "1595944648.421371": {
+                "bytes": 0, 
+                "duration": 5007, 
+                "total_bytes": 350, 
+                "total_duration": 40604
+            }, 
+            "1595944653.415652": {
+                "bytes": 0, 
+                "duration": 4995, 
+                "total_bytes": 350, 
+                "total_duration": 45611
+            }, 
+            "1595944658.421676": {
+                "bytes": 0, 
+                "duration": 5003, 
+                "total_bytes": 350, 
+                "total_duration": 50606
+            }, 
+            "1595944663.421285": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 350, 
+                "total_duration": 55609
+            }, 
+            "1595944668.419381": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 350, 
+                "total_duration": 60610
+            }
+        }, 
+        "4": {
+            "1595944605.594287": {
+                "bytes": 70, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.112688": {
+                "bytes": 640, 
+                "duration": 5582, 
+                "total_bytes": 70, 
+                "total_duration": 2785
+            }, 
+            "1595944613.462182": {
+                "bytes": 0, 
+                "duration": 2241, 
+                "total_bytes": 710, 
+                "total_duration": 8367
+            }, 
+            "1595944613.907118": {
+                "bytes": 0, 
+                "duration": 490, 
+                "total_bytes": 710, 
+                "total_duration": 10608
+            }, 
+            "1595944614.407666": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 710, 
+                "total_duration": 11098
+            }, 
+            "1595944614.909751": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 710, 
+                "total_duration": 11599
+            }, 
+            "1595944618.050259": {
+                "bytes": 1600, 
+                "duration": 510, 
+                "total_bytes": 710, 
+                "total_duration": 12100
+            }, 
+            "1595944618.050846": {
+                "bytes": 0, 
+                "duration": 539, 
+                "total_bytes": 2310, 
+                "total_duration": 12610
+            }, 
+            "1595944618.05143": {
+                "bytes": 0, 
+                "duration": 529, 
+                "total_bytes": 2310, 
+                "total_duration": 13149
+            }, 
+            "1595944618.052073": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 2310, 
+                "total_duration": 13678
+            }, 
+            "1595944618.0527": {
+                "bytes": 0, 
+                "duration": 281, 
+                "total_bytes": 2310, 
+                "total_duration": 13897
+            }, 
+            "1595944618.053285": {
+                "bytes": 0, 
+                "duration": 524, 
+                "total_bytes": 2310, 
+                "total_duration": 14178
+            }, 
+            "1595944618.053868": {
+                "bytes": 0, 
+                "duration": 513, 
+                "total_bytes": 2310, 
+                "total_duration": 14702
+            }, 
+            "1595944618.407472": {
+                "bytes": 0, 
+                "duration": 383, 
+                "total_bytes": 2310, 
+                "total_duration": 15215
+            }, 
+            "1595944618.508861": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 2310, 
+                "total_duration": 15598
+            }, 
+            "1595944618.50888": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2310, 
+                "total_duration": 15699
+            }, 
+            "1595944620.935391": {
+                "bytes": 0, 
+                "duration": 2425, 
+                "total_bytes": 2310, 
+                "total_duration": 15699
+            }, 
+            "1595944620.935431": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2310, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503111": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 2310, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503155": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2310, 
+                "total_duration": 18691
+            }, 
+            "1595944622.501785": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 2310, 
+                "total_duration": 18691
+            }, 
+            "1595944622.515268": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 2310, 
+                "total_duration": 19691
+            }, 
+            "1595944623.411098": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 2310, 
+                "total_duration": 19705
+            }, 
+            "1595944623.411142": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2310, 
+                "total_duration": 20599
+            }, 
+            "1595944623.502647": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 2310, 
+                "total_duration": 20599
+            }, 
+            "1595944624.939292": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 2310, 
+                "total_duration": 20692
+            }, 
+            "1595944625.017973": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 2310, 
+                "total_duration": 22128
+            }, 
+            "1595944625.504815": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 2310, 
+                "total_duration": 22208
+            }, 
+            "1595944626.938439": {
+                "bytes": 0, 
+                "duration": 1435, 
+                "total_bytes": 2310, 
+                "total_duration": 22694
+            }, 
+            "1595944628.409376": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 2310, 
+                "total_duration": 24129
+            }, 
+            "1595944633.408325": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 2310, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412818": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 2310, 
+                "total_duration": 30599
+            }, 
+            "1595944643.412991": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 2310, 
+                "total_duration": 35603
+            }, 
+            "1595944648.133478": {
+                "bytes": 100, 
+                "duration": 3579, 
+                "total_bytes": 2310, 
+                "total_duration": 40604
+            }, 
+            "1595944648.420847": {
+                "bytes": 0, 
+                "duration": 1428, 
+                "total_bytes": 2410, 
+                "total_duration": 44183
+            }, 
+            "1595944648.420864": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2410, 
+                "total_duration": 45611
+            }, 
+            "1595944649.696981": {
+                "bytes": 0, 
+                "duration": 1277, 
+                "total_bytes": 2410, 
+                "total_duration": 45611
+            }, 
+            "1595944649.74956": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 2410, 
+                "total_duration": 46888
+            }, 
+            "1595944652.540943": {
+                "bytes": 100, 
+                "duration": 958, 
+                "total_bytes": 2410, 
+                "total_duration": 46940
+            }, 
+            "1595944652.540968": {
+                "bytes": 0, 
+                "duration": 1010, 
+                "total_bytes": 2510, 
+                "total_duration": 47898
+            }, 
+            "1595944652.54099": {
+                "bytes": 0, 
+                "duration": 767, 
+                "total_bytes": 2510, 
+                "total_duration": 48908
+            }, 
+            "1595944652.822641": {
+                "bytes": 0, 
+                "duration": 338, 
+                "total_bytes": 2510, 
+                "total_duration": 49675
+            }, 
+            "1595944652.822661": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 50013
+            }, 
+            "1595944653.415617": {
+                "bytes": 0, 
+                "duration": 593, 
+                "total_bytes": 2510, 
+                "total_duration": 50013
+            }, 
+            "1595944653.825392": {
+                "bytes": 0, 
+                "duration": 408, 
+                "total_bytes": 2510, 
+                "total_duration": 50606
+            }, 
+            "1595944653.825429": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 51014
+            }, 
+            "1595944654.702772": {
+                "bytes": 0, 
+                "duration": 877, 
+                "total_bytes": 2510, 
+                "total_duration": 51014
+            }, 
+            "1595944654.702817": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703406": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 2510, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703451": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706659": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 2510, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706714": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 53893
+            }, 
+            "1595944657.646552": {
+                "bytes": 0, 
+                "duration": 942, 
+                "total_bytes": 2510, 
+                "total_duration": 53893
+            }, 
+            "1595944657.864733": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 2510, 
+                "total_duration": 54835
+            }, 
+            "1595944658.370529": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 2510, 
+                "total_duration": 55054
+            }, 
+            "1595944658.42172": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 2510, 
+                "total_duration": 55559
+            }, 
+            "1595944658.421764": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 55609
+            }, 
+            "1595944658.991985": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 2510, 
+                "total_duration": 55609
+            }, 
+            "1595944659.370667": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 2510, 
+                "total_duration": 56181
+            }, 
+            "1595944659.872264": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 2510, 
+                "total_duration": 56560
+            }, 
+            "1595944660.373329": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 2510, 
+                "total_duration": 57061
+            }, 
+            "1595944660.702869": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 2510, 
+                "total_duration": 57562
+            }, 
+            "1595944660.992165": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 2510, 
+                "total_duration": 57893
+            }, 
+            "1595944661.643016": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 2510, 
+                "total_duration": 58182
+            }, 
+            "1595944663.421338": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 2510, 
+                "total_duration": 58834
+            }, 
+            "1595944663.421372": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 2510, 
+                "total_duration": 60610
+            }, 
+            "1595944668.419434": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 2510, 
+                "total_duration": 60610
+            }
+        }, 
+        "5": {
+            "1595944605.594318": {
+                "bytes": 70, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462143": {
+                "bytes": 210, 
+                "duration": 7823, 
+                "total_bytes": 70, 
+                "total_duration": 2785
+            }, 
+            "1595944618.407439": {
+                "bytes": 0, 
+                "duration": 4990, 
+                "total_bytes": 280, 
+                "total_duration": 10608
+            }, 
+            "1595944623.411059": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 280, 
+                "total_duration": 15598
+            }, 
+            "1595944628.409329": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 280, 
+                "total_duration": 20599
+            }, 
+            "1595944633.408836": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 280, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412741": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 280, 
+                "total_duration": 30599
+            }, 
+            "1595944643.412974": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 280, 
+                "total_duration": 35603
+            }, 
+            "1595944648.42136": {
+                "bytes": 0, 
+                "duration": 5007, 
+                "total_bytes": 280, 
+                "total_duration": 40604
+            }, 
+            "1595944653.415625": {
+                "bytes": 0, 
+                "duration": 4995, 
+                "total_bytes": 280, 
+                "total_duration": 45611
+            }, 
+            "1595944658.421779": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 280, 
+                "total_duration": 50606
+            }, 
+            "1595944663.421388": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 280, 
+                "total_duration": 55610
+            }, 
+            "1595944668.419402": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 280, 
+                "total_duration": 60610
+            }
+        }, 
+        "6": {
+            "1595944605.594303": {
+                "bytes": 140, 
+                "duration": 2785, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944612.644254": {
+                "bytes": 1810, 
+                "duration": 5582, 
+                "total_bytes": 140, 
+                "total_duration": 2785
+            }, 
+            "1595944613.462199": {
+                "bytes": 0, 
+                "duration": 2241, 
+                "total_bytes": 1950, 
+                "total_duration": 8367
+            }, 
+            "1595944613.90714": {
+                "bytes": 0, 
+                "duration": 490, 
+                "total_bytes": 1950, 
+                "total_duration": 10608
+            }, 
+            "1595944614.407679": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 1950, 
+                "total_duration": 11098
+            }, 
+            "1595944614.909804": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 1950, 
+                "total_duration": 11599
+            }, 
+            "1595944617.623839": {
+                "bytes": 1600, 
+                "duration": 533, 
+                "total_bytes": 1950, 
+                "total_duration": 12100
+            }, 
+            "1595944617.624795": {
+                "bytes": 0, 
+                "duration": 516, 
+                "total_bytes": 3550, 
+                "total_duration": 12633
+            }, 
+            "1595944617.625706": {
+                "bytes": 0, 
+                "duration": 530, 
+                "total_bytes": 3550, 
+                "total_duration": 13149
+            }, 
+            "1595944617.630454": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 3550, 
+                "total_duration": 13679
+            }, 
+            "1595944617.631442": {
+                "bytes": 0, 
+                "duration": 298, 
+                "total_bytes": 3550, 
+                "total_duration": 13897
+            }, 
+            "1595944617.632383": {
+                "bytes": 0, 
+                "duration": 507, 
+                "total_bytes": 3550, 
+                "total_duration": 14195
+            }, 
+            "1595944618.068264": {
+                "bytes": 0, 
+                "duration": 513, 
+                "total_bytes": 3550, 
+                "total_duration": 14702
+            }, 
+            "1595944618.068859": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3550, 
+                "total_duration": 15215
+            }, 
+            "1595944618.407488": {
+                "bytes": 0, 
+                "duration": 383, 
+                "total_bytes": 3550, 
+                "total_duration": 15215
+            }, 
+            "1595944618.508741": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 3550, 
+                "total_duration": 15598
+            }, 
+            "1595944618.508762": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3550, 
+                "total_duration": 15699
+            }, 
+            "1595944620.935466": {
+                "bytes": 0, 
+                "duration": 2425, 
+                "total_bytes": 3550, 
+                "total_duration": 15699
+            }, 
+            "1595944620.93551": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3550, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503191": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 3550, 
+                "total_duration": 18124
+            }, 
+            "1595944621.503233": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3550, 
+                "total_duration": 18691
+            }, 
+            "1595944622.501823": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 3550, 
+                "total_duration": 18691
+            }, 
+            "1595944622.515234": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 3550, 
+                "total_duration": 19691
+            }, 
+            "1595944623.411176": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 3550, 
+                "total_duration": 19705
+            }, 
+            "1595944623.411217": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3550, 
+                "total_duration": 20599
+            }, 
+            "1595944623.50268": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 3550, 
+                "total_duration": 20599
+            }, 
+            "1595944624.939393": {
+                "bytes": 0, 
+                "duration": 1437, 
+                "total_bytes": 3550, 
+                "total_duration": 20692
+            }, 
+            "1595944625.018042": {
+                "bytes": 0, 
+                "duration": 79, 
+                "total_bytes": 3550, 
+                "total_duration": 22129
+            }, 
+            "1595944625.505294": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 3550, 
+                "total_duration": 22208
+            }, 
+            "1595944626.938384": {
+                "bytes": 0, 
+                "duration": 1435, 
+                "total_bytes": 3550, 
+                "total_duration": 22694
+            }, 
+            "1595944628.409352": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 3550, 
+                "total_duration": 24129
+            }, 
+            "1595944633.408852": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 3550, 
+                "total_duration": 25599
+            }, 
+            "1595944638.412834": {
+                "bytes": 0, 
+                "duration": 5004, 
+                "total_bytes": 3550, 
+                "total_duration": 30599
+            }, 
+            "1595944643.413005": {
+                "bytes": 0, 
+                "duration": 5001, 
+                "total_bytes": 3550, 
+                "total_duration": 35603
+            }, 
+            "1595944647.588151": {
+                "bytes": 100, 
+                "duration": 3579, 
+                "total_bytes": 3550, 
+                "total_duration": 40604
+            }, 
+            "1595944648.421385": {
+                "bytes": 0, 
+                "duration": 1428, 
+                "total_bytes": 3650, 
+                "total_duration": 44183
+            }, 
+            "1595944648.421402": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3650, 
+                "total_duration": 45611
+            }, 
+            "1595944649.69695": {
+                "bytes": 0, 
+                "duration": 1277, 
+                "total_bytes": 3650, 
+                "total_duration": 45611
+            }, 
+            "1595944649.749589": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 3650, 
+                "total_duration": 46888
+            }, 
+            "1595944652.458962": {
+                "bytes": 100, 
+                "duration": 958, 
+                "total_bytes": 3650, 
+                "total_duration": 46940
+            }, 
+            "1595944652.459573": {
+                "bytes": 0, 
+                "duration": 1011, 
+                "total_bytes": 3750, 
+                "total_duration": 47898
+            }, 
+            "1595944652.72821": {
+                "bytes": 0, 
+                "duration": 1011, 
+                "total_bytes": 3750, 
+                "total_duration": 48909
+            }, 
+            "1595944652.82268": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 3750, 
+                "total_duration": 49920
+            }, 
+            "1595944652.822703": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 50013
+            }, 
+            "1595944653.415644": {
+                "bytes": 0, 
+                "duration": 593, 
+                "total_bytes": 3750, 
+                "total_duration": 50013
+            }, 
+            "1595944653.825466": {
+                "bytes": 0, 
+                "duration": 408, 
+                "total_bytes": 3750, 
+                "total_duration": 50606
+            }, 
+            "1595944653.82551": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 51014
+            }, 
+            "1595944654.702695": {
+                "bytes": 0, 
+                "duration": 877, 
+                "total_bytes": 3750, 
+                "total_duration": 51014
+            }, 
+            "1595944654.702735": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703492": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 3750, 
+                "total_duration": 51891
+            }, 
+            "1595944655.703542": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706765": {
+                "bytes": 0, 
+                "duration": 1002, 
+                "total_bytes": 3750, 
+                "total_duration": 52892
+            }, 
+            "1595944656.706817": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 53894
+            }, 
+            "1595944657.646597": {
+                "bytes": 0, 
+                "duration": 941, 
+                "total_bytes": 3750, 
+                "total_duration": 53894
+            }, 
+            "1595944657.864664": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 3750, 
+                "total_duration": 54835
+            }, 
+            "1595944658.370563": {
+                "bytes": 0, 
+                "duration": 506, 
+                "total_bytes": 3750, 
+                "total_duration": 55054
+            }, 
+            "1595944658.421813": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 3750, 
+                "total_duration": 55560
+            }, 
+            "1595944658.421853": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 55610
+            }, 
+            "1595944658.991857": {
+                "bytes": 0, 
+                "duration": 571, 
+                "total_bytes": 3750, 
+                "total_duration": 55610
+            }, 
+            "1595944659.370633": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 3750, 
+                "total_duration": 56181
+            }, 
+            "1595944659.872319": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 3750, 
+                "total_duration": 56560
+            }, 
+            "1595944660.373134": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 3750, 
+                "total_duration": 57061
+            }, 
+            "1595944660.702813": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 3750, 
+                "total_duration": 57562
+            }, 
+            "1595944660.992194": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 3750, 
+                "total_duration": 57893
+            }, 
+            "1595944661.643003": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 3750, 
+                "total_duration": 58182
+            }, 
+            "1595944663.421412": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 3750, 
+                "total_duration": 58834
+            }, 
+            "1595944663.42144": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 3750, 
+                "total_duration": 60610
+            }, 
+            "1595944668.419419": {
+                "bytes": 0, 
+                "duration": 5000, 
+                "total_bytes": 3750, 
+                "total_duration": 60610
+            }
+        }, 
+        "7": {
+            "1595944611.205266": {
+                "bytes": 2062800, 
+                "duration": 1122, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462166": {
+                "bytes": 6262100, 
+                "duration": 2240, 
+                "total_bytes": 2062800, 
+                "total_duration": 1122
+            }, 
+            "1595944613.907125": {
+                "bytes": 1250000, 
+                "duration": 491, 
+                "total_bytes": 8324900, 
+                "total_duration": 3362
+            }, 
+            "1595944614.407696": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 9574900, 
+                "total_duration": 3853
+            }, 
+            "1595944614.909766": {
+                "bytes": 1176000, 
+                "duration": 501, 
+                "total_bytes": 10824900, 
+                "total_duration": 4354
+            }, 
+            "1595944616.56274": {
+                "bytes": 1299000, 
+                "duration": 533, 
+                "total_bytes": 12000900, 
+                "total_duration": 4855
+            }, 
+            "1595944616.563925": {
+                "bytes": 1275000, 
+                "duration": 516, 
+                "total_bytes": 13299900, 
+                "total_duration": 5388
+            }, 
+            "1595944616.565084": {
+                "bytes": 1250000, 
+                "duration": 529, 
+                "total_bytes": 14574900, 
+                "total_duration": 5904
+            }, 
+            "1595944617.034601": {
+                "bytes": 1250000, 
+                "duration": 500, 
+                "total_bytes": 15824900, 
+                "total_duration": 6433
+            }, 
+            "1595944617.057543": {
+                "bytes": 0, 
+                "duration": 18, 
+                "total_bytes": 17074900, 
+                "total_duration": 6933
+            }, 
+            "1595944618.407446": {
+                "bytes": 3750000, 
+                "duration": 1401, 
+                "total_bytes": 17074900, 
+                "total_duration": 6951
+            }, 
+            "1595944618.507375": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 20824900, 
+                "total_duration": 8352
+            }, 
+            "1595944618.507398": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20824900, 
+                "total_duration": 8453
+            }, 
+            "1595944620.935601": {
+                "bytes": 4175000, 
+                "duration": 2426, 
+                "total_bytes": 20824900, 
+                "total_duration": 8453
+            }, 
+            "1595944620.935641": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 10879
+            }, 
+            "1595944621.503249": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 24999900, 
+                "total_duration": 10879
+            }, 
+            "1595944621.503305": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11446
+            }, 
+            "1595944622.501875": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24999900, 
+                "total_duration": 11446
+            }, 
+            "1595944622.513936": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 24999900, 
+                "total_duration": 12446
+            }, 
+            "1595944623.409444": {
+                "bytes": 0, 
+                "duration": 893, 
+                "total_bytes": 24999900, 
+                "total_duration": 12460
+            }, 
+            "1595944623.409484": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13353
+            }, 
+            "1595944623.502593": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 24999900, 
+                "total_duration": 13353
+            }, 
+            "1595944624.939308": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 24999900, 
+                "total_duration": 13447
+            }, 
+            "1595944625.017988": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24999900, 
+                "total_duration": 14883
+            }, 
+            "1595944625.505563": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 24999900, 
+                "total_duration": 14963
+            }, 
+            "1595944647.021185": {
+                "bytes": -20450000, 
+                "duration": -13568, 
+                "total_bytes": 24999900, 
+                "total_duration": 15449
+            }, 
+            "1595944648.420886": {
+                "bytes": 3750000, 
+                "duration": 1449, 
+                "total_bytes": 4549900, 
+                "total_duration": 1881
+            }, 
+            "1595944648.420902": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8299900, 
+                "total_duration": 3330
+            }, 
+            "1595944649.696989": {
+                "bytes": 2500000, 
+                "duration": 1277, 
+                "total_bytes": 8299900, 
+                "total_duration": 3330
+            }, 
+            "1595944649.749568": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 10799900, 
+                "total_duration": 4607
+            }, 
+            "1595944650.754059": {
+                "bytes": 2275000, 
+                "duration": 958, 
+                "total_bytes": 10799900, 
+                "total_duration": 4659
+            }, 
+            "1595944650.840668": {
+                "bytes": 0, 
+                "duration": 86, 
+                "total_bytes": 13074900, 
+                "total_duration": 5617
+            }, 
+            "1595944651.765488": {
+                "bytes": 2500000, 
+                "duration": 924, 
+                "total_bytes": 13074900, 
+                "total_duration": 5703
+            }, 
+            "1595944651.874742": {
+                "bytes": 1250000, 
+                "duration": 110, 
+                "total_bytes": 15574900, 
+                "total_duration": 6627
+            }, 
+            "1595944652.366587": {
+                "bytes": 1250000, 
+                "duration": 497, 
+                "total_bytes": 16824900, 
+                "total_duration": 6737
+            }, 
+            "1595944652.367491": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 18074900, 
+                "total_duration": 7234
+            }, 
+            "1595944652.698839": {
+                "bytes": 0, 
+                "duration": 375, 
+                "total_bytes": 18074900, 
+                "total_duration": 7234
+            }, 
+            "1595944652.698868": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 18074900, 
+                "total_duration": 7609
+            }, 
+            "1595944653.41566": {
+                "bytes": 2500000, 
+                "duration": 716, 
+                "total_bytes": 18074900, 
+                "total_duration": 7609
+            }, 
+            "1595944654.229709": {
+                "bytes": 1250000, 
+                "duration": 815, 
+                "total_bytes": 20574900, 
+                "total_duration": 8325
+            }, 
+            "1595944654.229757": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 21824900, 
+                "total_duration": 9140
+            }, 
+            "1595944654.702832": {
+                "bytes": 1250000, 
+                "duration": 470, 
+                "total_bytes": 21824900, 
+                "total_duration": 9140
+            }, 
+            "1595944654.702873": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 23074900, 
+                "total_duration": 9610
+            }, 
+            "1595944655.703643": {
+                "bytes": 1925000, 
+                "duration": 1001, 
+                "total_bytes": 23074900, 
+                "total_duration": 9610
+            }, 
+            "1595944655.703688": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 10611
+            }, 
+            "1595944656.706415": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24999900, 
+                "total_duration": 10611
+            }, 
+            "1595944656.706478": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11611
+            }, 
+            "1595944657.645115": {
+                "bytes": 0, 
+                "duration": 943, 
+                "total_bytes": 24999900, 
+                "total_duration": 11611
+            }, 
+            "1595944657.863402": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 24999900, 
+                "total_duration": 12554
+            }, 
+            "1595944658.370621": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 24999900, 
+                "total_duration": 12773
+            }, 
+            "1595944658.419814": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 24999900, 
+                "total_duration": 13278
+            }, 
+            "1595944658.41986": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13328
+            }, 
+            "1595944658.991875": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 24999900, 
+                "total_duration": 13328
+            }, 
+            "1595944659.370683": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 24999900, 
+                "total_duration": 13900
+            }, 
+            "1595944659.870345": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14279
+            }, 
+            "1595944660.374252": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14780
+            }
+        }, 
+        "8": {
+            "1595944613.420986": {
+                "bytes": 2062800, 
+                "duration": 1030, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462153": {
+                "bytes": 6262100, 
+                "duration": 2240, 
+                "total_bytes": 2062800, 
+                "total_duration": 1030
+            }, 
+            "1595944613.907098": {
+                "bytes": 1250000, 
+                "duration": 491, 
+                "total_bytes": 8324900, 
+                "total_duration": 3270
+            }, 
+            "1595944614.407686": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 9574900, 
+                "total_duration": 3761
+            }, 
+            "1595944614.9097": {
+                "bytes": 1176200, 
+                "duration": 500, 
+                "total_bytes": 10824900, 
+                "total_duration": 4262
+            }, 
+            "1595944618.150954": {
+                "bytes": 1298800, 
+                "duration": 534, 
+                "total_bytes": 12001100, 
+                "total_duration": 4762
+            }, 
+            "1595944618.151269": {
+                "bytes": 1275000, 
+                "duration": 515, 
+                "total_bytes": 13299900, 
+                "total_duration": 5296
+            }, 
+            "1595944618.151573": {
+                "bytes": 1250000, 
+                "duration": 529, 
+                "total_bytes": 14574900, 
+                "total_duration": 5811
+            }, 
+            "1595944618.151882": {
+                "bytes": 0, 
+                "duration": 220, 
+                "total_bytes": 15824900, 
+                "total_duration": 6340
+            }, 
+            "1595944618.152227": {
+                "bytes": 1250000, 
+                "duration": 281, 
+                "total_bytes": 15824900, 
+                "total_duration": 6560
+            }, 
+            "1595944618.152559": {
+                "bytes": 1250000, 
+                "duration": 524, 
+                "total_bytes": 17074900, 
+                "total_duration": 6841
+            }, 
+            "1595944618.153145": {
+                "bytes": 1250000, 
+                "duration": 512, 
+                "total_bytes": 18324900, 
+                "total_duration": 7365
+            }, 
+            "1595944618.40739": {
+                "bytes": 1250000, 
+                "duration": 383, 
+                "total_bytes": 19574900, 
+                "total_duration": 7877
+            }, 
+            "1595944618.508813": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 20824900, 
+                "total_duration": 8260
+            }, 
+            "1595944618.508835": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20824900, 
+                "total_duration": 8362
+            }, 
+            "1595944620.932748": {
+                "bytes": 4175000, 
+                "duration": 2424, 
+                "total_bytes": 20824900, 
+                "total_duration": 8362
+            }, 
+            "1595944620.932797": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 24999900, 
+                "total_duration": 10786
+            }, 
+            "1595944621.500394": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 24999900, 
+                "total_duration": 10787
+            }, 
+            "1595944621.500445": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11354
+            }, 
+            "1595944622.500146": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24999900, 
+                "total_duration": 11354
+            }, 
+            "1595944622.513986": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 24999900, 
+                "total_duration": 12354
+            }, 
+            "1595944623.409362": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 24999900, 
+                "total_duration": 12368
+            }, 
+            "1595944623.40941": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13262
+            }, 
+            "1595944623.501065": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 24999900, 
+                "total_duration": 13262
+            }, 
+            "1595944624.939342": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 24999900, 
+                "total_duration": 13355
+            }, 
+            "1595944625.017909": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24999900, 
+                "total_duration": 14791
+            }, 
+            "1595944625.504656": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 24999900, 
+                "total_duration": 14871
+            }, 
+            "1595944648.420801": {
+                "bytes": -20450000, 
+                "duration": -13547, 
+                "total_bytes": 24999900, 
+                "total_duration": 15357
+            }, 
+            "1595944648.420822": {
+                "bytes": 3750000, 
+                "duration": 1429, 
+                "total_bytes": 4549900, 
+                "total_duration": 1810
+            }, 
+            "1595944648.517873": {
+                "bytes": 0, 
+                "duration": 98, 
+                "total_bytes": 8299900, 
+                "total_duration": 3239
+            }, 
+            "1595944649.696961": {
+                "bytes": 2500000, 
+                "duration": 1179, 
+                "total_bytes": 8299900, 
+                "total_duration": 3337
+            }, 
+            "1595944649.749536": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 10799900, 
+                "total_duration": 4516
+            }, 
+            "1595944652.240173": {
+                "bytes": 2275000, 
+                "duration": 958, 
+                "total_bytes": 10799900, 
+                "total_duration": 4568
+            }, 
+            "1595944652.241053": {
+                "bytes": 2500000, 
+                "duration": 1010, 
+                "total_bytes": 13074900, 
+                "total_duration": 5526
+            }, 
+            "1595944652.366621": {
+                "bytes": 2500000, 
+                "duration": 607, 
+                "total_bytes": 15574900, 
+                "total_duration": 6536
+            }, 
+            "1595944652.82155": {
+                "bytes": 1250000, 
+                "duration": 498, 
+                "total_bytes": 18074900, 
+                "total_duration": 7143
+            }, 
+            "1595944652.821575": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 19324900, 
+                "total_duration": 7641
+            }, 
+            "1595944653.415582": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 19324900, 
+                "total_duration": 7641
+            }, 
+            "1595944653.823326": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 20574900, 
+                "total_duration": 8234
+            }, 
+            "1595944653.823378": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 21824900, 
+                "total_duration": 8642
+            }, 
+            "1595944654.700089": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 21824900, 
+                "total_duration": 8642
+            }, 
+            "1595944654.700147": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 23074900, 
+                "total_duration": 9519
+            }, 
+            "1595944655.7007": {
+                "bytes": 1925000, 
+                "duration": 1000, 
+                "total_bytes": 23074900, 
+                "total_duration": 9519
+            }, 
+            "1595944655.700752": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 24999900, 
+                "total_duration": 10519
+            }, 
+            "1595944656.706299": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 24999900, 
+                "total_duration": 10520
+            }, 
+            "1595944656.706371": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11521
+            }, 
+            "1595944657.645035": {
+                "bytes": 0, 
+                "duration": 942, 
+                "total_bytes": 24999900, 
+                "total_duration": 11521
+            }, 
+            "1595944657.863343": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 24999900, 
+                "total_duration": 12463
+            }, 
+            "1595944658.370459": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 24999900, 
+                "total_duration": 12682
+            }, 
+            "1595944658.420013": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 24999900, 
+                "total_duration": 13187
+            }, 
+            "1595944658.420054": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13237
+            }, 
+            "1595944658.990154": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 24999900, 
+                "total_duration": 13237
+            }, 
+            "1595944659.36912": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 24999900, 
+                "total_duration": 13809
+            }, 
+            "1595944659.870418": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14188
+            }, 
+            "1595944660.373987": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14689
+            }
+        }, 
+        "9": {
+            "1595944613.11268": {
+                "bytes": 1867600, 
+                "duration": 961, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462177": {
+                "bytes": 6448300, 
+                "duration": 2241, 
+                "total_bytes": 1867600, 
+                "total_duration": 961
+            }, 
+            "1595944613.907113": {
+                "bytes": 1258600, 
+                "duration": 490, 
+                "total_bytes": 8315900, 
+                "total_duration": 3202
+            }, 
+            "1595944614.407659": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 9574500, 
+                "total_duration": 3692
+            }, 
+            "1595944614.909741": {
+                "bytes": 1176100, 
+                "duration": 501, 
+                "total_bytes": 10824500, 
+                "total_duration": 4193
+            }, 
+            "1595944618.050243": {
+                "bytes": 1298900, 
+                "duration": 510, 
+                "total_bytes": 12000600, 
+                "total_duration": 4694
+            }, 
+            "1595944618.050834": {
+                "bytes": 1275000, 
+                "duration": 539, 
+                "total_bytes": 13299500, 
+                "total_duration": 5204
+            }, 
+            "1595944618.051413": {
+                "bytes": 1250000, 
+                "duration": 529, 
+                "total_bytes": 14574500, 
+                "total_duration": 5743
+            }, 
+            "1595944618.052059": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 15824500, 
+                "total_duration": 6272
+            }, 
+            "1595944618.052683": {
+                "bytes": 1250000, 
+                "duration": 281, 
+                "total_bytes": 15824500, 
+                "total_duration": 6491
+            }, 
+            "1595944618.053273": {
+                "bytes": 1250000, 
+                "duration": 524, 
+                "total_bytes": 17074500, 
+                "total_duration": 6772
+            }, 
+            "1595944618.053856": {
+                "bytes": 1250000, 
+                "duration": 513, 
+                "total_bytes": 18324500, 
+                "total_duration": 7296
+            }, 
+            "1595944618.407462": {
+                "bytes": 1250000, 
+                "duration": 383, 
+                "total_bytes": 19574500, 
+                "total_duration": 7809
+            }, 
+            "1595944618.508851": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 20824500, 
+                "total_duration": 8192
+            }, 
+            "1595944618.508871": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20824500, 
+                "total_duration": 8293
+            }, 
+            "1595944620.935364": {
+                "bytes": 4175000, 
+                "duration": 2425, 
+                "total_bytes": 20824500, 
+                "total_duration": 8293
+            }, 
+            "1595944620.935409": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999500, 
+                "total_duration": 10718
+            }, 
+            "1595944621.50309": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 24999500, 
+                "total_duration": 10718
+            }, 
+            "1595944621.503135": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999500, 
+                "total_duration": 11285
+            }, 
+            "1595944622.501751": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24999500, 
+                "total_duration": 11285
+            }, 
+            "1595944622.51525": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 24999500, 
+                "total_duration": 12285
+            }, 
+            "1595944623.411075": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 24999500, 
+                "total_duration": 12299
+            }, 
+            "1595944623.411122": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999500, 
+                "total_duration": 13193
+            }, 
+            "1595944623.502628": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 24999500, 
+                "total_duration": 13193
+            }, 
+            "1595944624.939273": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 24999500, 
+                "total_duration": 13286
+            }, 
+            "1595944625.017953": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24999500, 
+                "total_duration": 14722
+            }, 
+            "1595944625.50484": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 24999500, 
+                "total_duration": 14802
+            }, 
+            "1595944648.133469": {
+                "bytes": -20579700, 
+                "duration": -13547, 
+                "total_bytes": 24999500, 
+                "total_duration": 15288
+            }, 
+            "1595944648.420837": {
+                "bytes": 3875200, 
+                "duration": 1428, 
+                "total_bytes": 4419800, 
+                "total_duration": 1741
+            }, 
+            "1595944648.420859": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8295000, 
+                "total_duration": 3169
+            }, 
+            "1595944649.696976": {
+                "bytes": 2504900, 
+                "duration": 1277, 
+                "total_bytes": 8295000, 
+                "total_duration": 3169
+            }, 
+            "1595944649.749554": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 10799900, 
+                "total_duration": 4446
+            }, 
+            "1595944652.540925": {
+                "bytes": 2275000, 
+                "duration": 958, 
+                "total_bytes": 10799900, 
+                "total_duration": 4498
+            }, 
+            "1595944652.540957": {
+                "bytes": 2500000, 
+                "duration": 1010, 
+                "total_bytes": 13074900, 
+                "total_duration": 5456
+            }, 
+            "1595944652.54098": {
+                "bytes": 2500000, 
+                "duration": 767, 
+                "total_bytes": 15574900, 
+                "total_duration": 6466
+            }, 
+            "1595944652.822626": {
+                "bytes": 1250000, 
+                "duration": 338, 
+                "total_bytes": 18074900, 
+                "total_duration": 7233
+            }, 
+            "1595944652.82265": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 19324900, 
+                "total_duration": 7571
+            }, 
+            "1595944653.415605": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 19324900, 
+                "total_duration": 7571
+            }, 
+            "1595944653.825363": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 20574900, 
+                "total_duration": 8164
+            }, 
+            "1595944653.825409": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 21824900, 
+                "total_duration": 8572
+            }, 
+            "1595944654.702751": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 21824900, 
+                "total_duration": 8572
+            }, 
+            "1595944654.702796": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 23074900, 
+                "total_duration": 9449
+            }, 
+            "1595944655.703363": {
+                "bytes": 1925000, 
+                "duration": 1001, 
+                "total_bytes": 23074900, 
+                "total_duration": 9449
+            }, 
+            "1595944655.703427": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 10450
+            }, 
+            "1595944656.706627": {
+                "bytes": 0, 
+                "duration": 1001, 
+                "total_bytes": 24999900, 
+                "total_duration": 10450
+            }, 
+            "1595944656.70669": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11451
+            }, 
+            "1595944657.64652": {
+                "bytes": 0, 
+                "duration": 942, 
+                "total_bytes": 24999900, 
+                "total_duration": 11451
+            }, 
+            "1595944657.864712": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 24999900, 
+                "total_duration": 12393
+            }, 
+            "1595944658.370509": {
+                "bytes": 0, 
+                "duration": 505, 
+                "total_bytes": 24999900, 
+                "total_duration": 12612
+            }, 
+            "1595944658.421698": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 24999900, 
+                "total_duration": 13117
+            }, 
+            "1595944658.421744": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13167
+            }, 
+            "1595944658.991966": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 24999900, 
+                "total_duration": 13167
+            }, 
+            "1595944659.370648": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 24999900, 
+                "total_duration": 13739
+            }, 
+            "1595944659.872232": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14118
+            }, 
+            "1595944660.373459": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14619
+            }
+        }, 
+        "10": {
+            "1595944612.644245": {
+                "bytes": 1712200, 
+                "duration": 901, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.462195": {
+                "bytes": 6602600, 
+                "duration": 2241, 
+                "total_bytes": 1712200, 
+                "total_duration": 901
+            }, 
+            "1595944613.907136": {
+                "bytes": 1258600, 
+                "duration": 490, 
+                "total_bytes": 8314800, 
+                "total_duration": 3142
+            }, 
+            "1595944614.407675": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 9573400, 
+                "total_duration": 3632
+            }, 
+            "1595944614.909796": {
+                "bytes": 1176000, 
+                "duration": 501, 
+                "total_bytes": 10823400, 
+                "total_duration": 4133
+            }, 
+            "1595944617.62382": {
+                "bytes": 1299000, 
+                "duration": 533, 
+                "total_bytes": 11999400, 
+                "total_duration": 4634
+            }, 
+            "1595944617.624784": {
+                "bytes": 1275000, 
+                "duration": 516, 
+                "total_bytes": 13298400, 
+                "total_duration": 5167
+            }, 
+            "1595944617.625694": {
+                "bytes": 1250000, 
+                "duration": 530, 
+                "total_bytes": 14573400, 
+                "total_duration": 5683
+            }, 
+            "1595944617.630436": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 15823400, 
+                "total_duration": 6213
+            }, 
+            "1595944617.631431": {
+                "bytes": 1250000, 
+                "duration": 298, 
+                "total_bytes": 15823400, 
+                "total_duration": 6431
+            }, 
+            "1595944617.632366": {
+                "bytes": 1250000, 
+                "duration": 507, 
+                "total_bytes": 17073400, 
+                "total_duration": 6729
+            }, 
+            "1595944618.068252": {
+                "bytes": 1250000, 
+                "duration": 513, 
+                "total_bytes": 18323400, 
+                "total_duration": 7236
+            }, 
+            "1595944618.068847": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 19573400, 
+                "total_duration": 7749
+            }, 
+            "1595944618.407479": {
+                "bytes": 1250000, 
+                "duration": 383, 
+                "total_bytes": 19573400, 
+                "total_duration": 7749
+            }, 
+            "1595944618.508726": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 20823400, 
+                "total_duration": 8132
+            }, 
+            "1595944618.508751": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20823400, 
+                "total_duration": 8233
+            }, 
+            "1595944620.935447": {
+                "bytes": 4175000, 
+                "duration": 2425, 
+                "total_bytes": 20823400, 
+                "total_duration": 8233
+            }, 
+            "1595944620.93549": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24998400, 
+                "total_duration": 10658
+            }, 
+            "1595944621.503171": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 24998400, 
+                "total_duration": 10658
+            }, 
+            "1595944621.503214": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24998400, 
+                "total_duration": 11225
+            }, 
+            "1595944622.501804": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24998400, 
+                "total_duration": 11225
+            }, 
+            "1595944622.515213": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 24998400, 
+                "total_duration": 12225
+            }, 
+            "1595944623.411157": {
+                "bytes": 0, 
+                "duration": 894, 
+                "total_bytes": 24998400, 
+                "total_duration": 12239
+            }, 
+            "1595944623.411198": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24998400, 
+                "total_duration": 13133
+            }, 
+            "1595944623.502662": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 24998400, 
+                "total_duration": 13133
+            }, 
+            "1595944624.939374": {
+                "bytes": 0, 
+                "duration": 1437, 
+                "total_bytes": 24998400, 
+                "total_duration": 13226
+            }, 
+            "1595944625.018021": {
+                "bytes": 0, 
+                "duration": 79, 
+                "total_bytes": 24998400, 
+                "total_duration": 14663
+            }, 
+            "1595944625.505363": {
+                "bytes": 0, 
+                "duration": 486, 
+                "total_bytes": 24998400, 
+                "total_duration": 14742
+            }, 
+            "1595944647.588142": {
+                "bytes": -20672000, 
+                "duration": -13545, 
+                "total_bytes": 24998400, 
+                "total_duration": 15228
+            }, 
+            "1595944648.42138": {
+                "bytes": 3968600, 
+                "duration": 1428, 
+                "total_bytes": 4326400, 
+                "total_duration": 1683
+            }, 
+            "1595944648.421397": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8295000, 
+                "total_duration": 3111
+            }, 
+            "1595944649.696943": {
+                "bytes": 2504900, 
+                "duration": 1277, 
+                "total_bytes": 8295000, 
+                "total_duration": 3111
+            }, 
+            "1595944649.749581": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 10799900, 
+                "total_duration": 4388
+            }, 
+            "1595944652.458946": {
+                "bytes": 2275000, 
+                "duration": 958, 
+                "total_bytes": 10799900, 
+                "total_duration": 4440
+            }, 
+            "1595944652.45956": {
+                "bytes": 2500000, 
+                "duration": 1011, 
+                "total_bytes": 13074900, 
+                "total_duration": 5398
+            }, 
+            "1595944652.728197": {
+                "bytes": 2500000, 
+                "duration": 1011, 
+                "total_bytes": 15574900, 
+                "total_duration": 6409
+            }, 
+            "1595944652.822669": {
+                "bytes": 1250000, 
+                "duration": 93, 
+                "total_bytes": 18074900, 
+                "total_duration": 7420
+            }, 
+            "1595944652.822692": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 19324900, 
+                "total_duration": 7513
+            }, 
+            "1595944653.415633": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 19324900, 
+                "total_duration": 7513
+            }, 
+            "1595944653.825445": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 20574900, 
+                "total_duration": 8106
+            }, 
+            "1595944653.82549": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 21824900, 
+                "total_duration": 8514
+            }, 
+            "1595944654.702667": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 21824900, 
+                "total_duration": 8514
+            }, 
+            "1595944654.702714": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 23074900, 
+                "total_duration": 9391
+            }, 
+            "1595944655.703469": {
+                "bytes": 1925000, 
+                "duration": 1001, 
+                "total_bytes": 23074900, 
+                "total_duration": 9391
+            }, 
+            "1595944655.703519": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 10392
+            }, 
+            "1595944656.706732": {
+                "bytes": 0, 
+                "duration": 1002, 
+                "total_bytes": 24999900, 
+                "total_duration": 10392
+            }, 
+            "1595944656.706792": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 11394
+            }, 
+            "1595944657.646573": {
+                "bytes": 0, 
+                "duration": 941, 
+                "total_bytes": 24999900, 
+                "total_duration": 11394
+            }, 
+            "1595944657.864638": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 24999900, 
+                "total_duration": 12335
+            }, 
+            "1595944658.370545": {
+                "bytes": 0, 
+                "duration": 506, 
+                "total_bytes": 24999900, 
+                "total_duration": 12554
+            }, 
+            "1595944658.421795": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 24999900, 
+                "total_duration": 13060
+            }, 
+            "1595944658.421835": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13110
+            }, 
+            "1595944658.991822": {
+                "bytes": 0, 
+                "duration": 571, 
+                "total_bytes": 24999900, 
+                "total_duration": 13110
+            }, 
+            "1595944659.370613": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 24999900, 
+                "total_duration": 13681
+            }, 
+            "1595944659.872289": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14060
+            }, 
+            "1595944660.373165": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999900, 
+                "total_duration": 14561
+            }
+        }, 
+        "11": {
+            "1595944613.48611": {
+                "bytes": 1594900, 
+                "duration": 815, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944613.486129": {
+                "bytes": 6714500, 
+                "duration": 2239, 
+                "total_bytes": 1594900, 
+                "total_duration": 815
+            }, 
+            "1595944613.906576": {
+                "bytes": 1258600, 
+                "duration": 491, 
+                "total_bytes": 8309400, 
+                "total_duration": 3054
+            }, 
+            "1595944614.407136": {
+                "bytes": 1250000, 
+                "duration": 500, 
+                "total_bytes": 9568000, 
+                "total_duration": 3545
+            }, 
+            "1595944614.908329": {
+                "bytes": 1175900, 
+                "duration": 501, 
+                "total_bytes": 10818000, 
+                "total_duration": 4045
+            }, 
+            "1595944618.177584": {
+                "bytes": 1299100, 
+                "duration": 534, 
+                "total_bytes": 11993900, 
+                "total_duration": 4546
+            }, 
+            "1595944618.177613": {
+                "bytes": 1275000, 
+                "duration": 516, 
+                "total_bytes": 13293000, 
+                "total_duration": 5080
+            }, 
+            "1595944618.177636": {
+                "bytes": 1250000, 
+                "duration": 530, 
+                "total_bytes": 14568000, 
+                "total_duration": 5596
+            }, 
+            "1595944618.177656": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 15818000, 
+                "total_duration": 6126
+            }, 
+            "1595944618.177682": {
+                "bytes": 1250000, 
+                "duration": 298, 
+                "total_bytes": 15818000, 
+                "total_duration": 6344
+            }, 
+            "1595944618.177704": {
+                "bytes": 1250000, 
+                "duration": 508, 
+                "total_bytes": 17068000, 
+                "total_duration": 6642
+            }, 
+            "1595944618.177726": {
+                "bytes": 1250000, 
+                "duration": 512, 
+                "total_bytes": 18318000, 
+                "total_duration": 7150
+            }, 
+            "1595944618.407414": {
+                "bytes": 1250000, 
+                "duration": 382, 
+                "total_bytes": 19568000, 
+                "total_duration": 7662
+            }, 
+            "1595944618.508769": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 20818000, 
+                "total_duration": 8044
+            }, 
+            "1595944618.508791": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20818000, 
+                "total_duration": 8146
+            }, 
+            "1595944620.935526": {
+                "bytes": 4175000, 
+                "duration": 2425, 
+                "total_bytes": 20818000, 
+                "total_duration": 8146
+            }, 
+            "1595944620.935566": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24993000, 
+                "total_duration": 10571
+            }, 
+            "1595944621.503006": {
+                "bytes": 0, 
+                "duration": 567, 
+                "total_bytes": 24993000, 
+                "total_duration": 10571
+            }, 
+            "1595944621.503053": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24993000, 
+                "total_duration": 11138
+            }, 
+            "1595944622.501841": {
+                "bytes": 0, 
+                "duration": 1000, 
+                "total_bytes": 24993000, 
+                "total_duration": 11138
+            }, 
+            "1595944622.51516": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 24993000, 
+                "total_duration": 12138
+            }, 
+            "1595944623.409277": {
+                "bytes": 0, 
+                "duration": 893, 
+                "total_bytes": 24993000, 
+                "total_duration": 12152
+            }, 
+            "1595944623.409327": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24993000, 
+                "total_duration": 13045
+            }, 
+            "1595944623.502551": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 24993000, 
+                "total_duration": 13045
+            }, 
+            "1595944624.939225": {
+                "bytes": 0, 
+                "duration": 1437, 
+                "total_bytes": 24993000, 
+                "total_duration": 13139
+            }, 
+            "1595944625.018057": {
+                "bytes": 0, 
+                "duration": 78, 
+                "total_bytes": 24993000, 
+                "total_duration": 14576
+            }, 
+            "1595944625.505151": {
+                "bytes": 0, 
+                "duration": 487, 
+                "total_bytes": 24993000, 
+                "total_duration": 14654
+            }, 
+            "1595944648.414686": {
+                "bytes": -20713100, 
+                "duration": -13539, 
+                "total_bytes": 24993000, 
+                "total_duration": 15141
+            }, 
+            "1595944648.420872": {
+                "bytes": 4014600, 
+                "duration": 1428, 
+                "total_bytes": 4279900, 
+                "total_duration": 1602
+            }, 
+            "1595944648.517658": {
+                "bytes": 0, 
+                "duration": 98, 
+                "total_bytes": 8294500, 
+                "total_duration": 3030
+            }, 
+            "1595944649.696334": {
+                "bytes": 2504900, 
+                "duration": 1179, 
+                "total_bytes": 8294500, 
+                "total_duration": 3128
+            }, 
+            "1595944649.748825": {
+                "bytes": 0, 
+                "duration": 52, 
+                "total_bytes": 10799400, 
+                "total_duration": 4307
+            }, 
+            "1595944652.492217": {
+                "bytes": 2275000, 
+                "duration": 958, 
+                "total_bytes": 10799400, 
+                "total_duration": 4359
+            }, 
+            "1595944652.492545": {
+                "bytes": 2500000, 
+                "duration": 1011, 
+                "total_bytes": 13074400, 
+                "total_duration": 5317
+            }, 
+            "1595944652.524912": {
+                "bytes": 2500000, 
+                "duration": 767, 
+                "total_bytes": 15574400, 
+                "total_duration": 6328
+            }, 
+            "1595944652.822711": {
+                "bytes": 1250000, 
+                "duration": 337, 
+                "total_bytes": 18074400, 
+                "total_duration": 7095
+            }, 
+            "1595944652.822733": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 19324400, 
+                "total_duration": 7432
+            }, 
+            "1595944653.414646": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 19324400, 
+                "total_duration": 7432
+            }, 
+            "1595944653.825525": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 20574400, 
+                "total_duration": 8025
+            }, 
+            "1595944653.825567": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 21824400, 
+                "total_duration": 8433
+            }, 
+            "1595944654.702908": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 21824400, 
+                "total_duration": 8433
+            }, 
+            "1595944654.70295": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 23074400, 
+                "total_duration": 9310
+            }, 
+            "1595944655.703559": {
+                "bytes": 1925000, 
+                "duration": 1001, 
+                "total_bytes": 23074400, 
+                "total_duration": 9310
+            }, 
+            "1595944655.703604": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999400, 
+                "total_duration": 10311
+            }, 
+            "1595944656.706521": {
+                "bytes": 0, 
+                "duration": 1002, 
+                "total_bytes": 24999400, 
+                "total_duration": 10311
+            }, 
+            "1595944656.706584": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999400, 
+                "total_duration": 11313
+            }, 
+            "1595944657.646615": {
+                "bytes": 0, 
+                "duration": 941, 
+                "total_bytes": 24999400, 
+                "total_duration": 11313
+            }, 
+            "1595944657.86475": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 24999400, 
+                "total_duration": 12254
+            }, 
+            "1595944658.370586": {
+                "bytes": 0, 
+                "duration": 506, 
+                "total_bytes": 24999400, 
+                "total_duration": 12473
+            }, 
+            "1595944658.419936": {
+                "bytes": 0, 
+                "duration": 49, 
+                "total_bytes": 24999400, 
+                "total_duration": 12979
+            }, 
+            "1595944658.419979": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999400, 
+                "total_duration": 13028
+            }, 
+            "1595944658.992008": {
+                "bytes": 0, 
+                "duration": 572, 
+                "total_bytes": 24999400, 
+                "total_duration": 13028
+            }, 
+            "1595944659.370569": {
+                "bytes": 0, 
+                "duration": 379, 
+                "total_bytes": 24999400, 
+                "total_duration": 13600
+            }, 
+            "1595944659.872149": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999400, 
+                "total_duration": 13979
+            }, 
+            "1595944660.37368": {
+                "bytes": 0, 
+                "duration": 501, 
+                "total_bytes": 24999400, 
+                "total_duration": 14480
+            }
+        }, 
+        "12": {
+            "1595944616.562749": {
+                "bytes": 799900, 
+                "duration": 360, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944616.563932": {
+                "bytes": 1250000, 
+                "duration": 516, 
+                "total_bytes": 799900, 
+                "total_duration": 360
+            }, 
+            "1595944616.565092": {
+                "bytes": 1250000, 
+                "duration": 529, 
+                "total_bytes": 2049900, 
+                "total_duration": 876
+            }, 
+            "1595944617.034615": {
+                "bytes": 1250000, 
+                "duration": 500, 
+                "total_bytes": 3299900, 
+                "total_duration": 1405
+            }, 
+            "1595944617.057551": {
+                "bytes": 0, 
+                "duration": 18, 
+                "total_bytes": 4549900, 
+                "total_duration": 1905
+            }, 
+            "1595944618.407451": {
+                "bytes": 3750000, 
+                "duration": 1401, 
+                "total_bytes": 4549900, 
+                "total_duration": 1923
+            }, 
+            "1595944618.507383": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 8299900, 
+                "total_duration": 3324
+            }, 
+            "1595944618.507403": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8299900, 
+                "total_duration": 3425
+            }, 
+            "1595944620.93561": {
+                "bytes": 6300000, 
+                "duration": 2426, 
+                "total_bytes": 8299900, 
+                "total_duration": 3425
+            }, 
+            "1595944620.935652": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 14599900, 
+                "total_duration": 5851
+            }, 
+            "1595944621.503259": {
+                "bytes": 1250000, 
+                "duration": 567, 
+                "total_bytes": 14599900, 
+                "total_duration": 5851
+            }, 
+            "1595944621.503315": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15849900, 
+                "total_duration": 6418
+            }, 
+            "1595944622.501882": {
+                "bytes": 2500000, 
+                "duration": 1000, 
+                "total_bytes": 15849900, 
+                "total_duration": 6418
+            }, 
+            "1595944622.51395": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 18349900, 
+                "total_duration": 7418
+            }, 
+            "1595944623.409453": {
+                "bytes": 2525000, 
+                "duration": 893, 
+                "total_bytes": 18349900, 
+                "total_duration": 7432
+            }, 
+            "1595944623.409493": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20874900, 
+                "total_duration": 8325
+            }, 
+            "1595944623.502603": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 20874900, 
+                "total_duration": 8325
+            }, 
+            "1595944624.939317": {
+                "bytes": 3750000, 
+                "duration": 1436, 
+                "total_bytes": 20874900, 
+                "total_duration": 8419
+            }, 
+            "1595944625.017996": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24624900, 
+                "total_duration": 9855
+            }, 
+            "1595944625.505481": {
+                "bytes": 375000, 
+                "duration": 486, 
+                "total_bytes": 24624900, 
+                "total_duration": 9935
+            }, 
+            "1595944626.938403": {
+                "bytes": 0, 
+                "duration": 1434, 
+                "total_bytes": 24999900, 
+                "total_duration": 10421
+            }, 
+            "1595944628.409302": {
+                "bytes": 0, 
+                "duration": 1471, 
+                "total_bytes": 24999900, 
+                "total_duration": 11855
+            }, 
+            "1595944631.017542": {
+                "bytes": 0, 
+                "duration": 2609, 
+                "total_bytes": 24999900, 
+                "total_duration": 13326
+            }, 
+            "1595944650.754069": {
+                "bytes": -24348000, 
+                "duration": -15283, 
+                "total_bytes": 24999900, 
+                "total_duration": 15935
+            }, 
+            "1595944650.840676": {
+                "bytes": 0, 
+                "duration": 86, 
+                "total_bytes": 651900, 
+                "total_duration": 652
+            }, 
+            "1595944651.765501": {
+                "bytes": 2521800, 
+                "duration": 924, 
+                "total_bytes": 651900, 
+                "total_duration": 738
+            }, 
+            "1595944651.87475": {
+                "bytes": 1251200, 
+                "duration": 110, 
+                "total_bytes": 3173700, 
+                "total_duration": 1662
+            }, 
+            "1595944652.366596": {
+                "bytes": 1250000, 
+                "duration": 497, 
+                "total_bytes": 4424900, 
+                "total_duration": 1772
+            }, 
+            "1595944652.367499": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 5674900, 
+                "total_duration": 2269
+            }, 
+            "1595944652.698847": {
+                "bytes": 0, 
+                "duration": 375, 
+                "total_bytes": 5674900, 
+                "total_duration": 2269
+            }, 
+            "1595944652.698873": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 5674900, 
+                "total_duration": 2644
+            }, 
+            "1595944653.415664": {
+                "bytes": 2500000, 
+                "duration": 716, 
+                "total_bytes": 5674900, 
+                "total_duration": 2644
+            }, 
+            "1595944654.229727": {
+                "bytes": 1250000, 
+                "duration": 815, 
+                "total_bytes": 8174900, 
+                "total_duration": 3360
+            }, 
+            "1595944654.229768": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 9424900, 
+                "total_duration": 4175
+            }, 
+            "1595944654.702842": {
+                "bytes": 1250000, 
+                "duration": 470, 
+                "total_bytes": 9424900, 
+                "total_duration": 4175
+            }, 
+            "1595944654.702884": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 10674900, 
+                "total_duration": 4645
+            }, 
+            "1595944655.703654": {
+                "bytes": 2222600, 
+                "duration": 1001, 
+                "total_bytes": 10674900, 
+                "total_duration": 4645
+            }, 
+            "1595944655.7037": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 12897500, 
+                "total_duration": 5646
+            }, 
+            "1595944656.706434": {
+                "bytes": 2827400, 
+                "duration": 1000, 
+                "total_bytes": 12897500, 
+                "total_duration": 5646
+            }, 
+            "1595944656.70649": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15724900, 
+                "total_duration": 6646
+            }, 
+            "1595944657.645135": {
+                "bytes": 2450700, 
+                "duration": 943, 
+                "total_bytes": 15724900, 
+                "total_duration": 6646
+            }, 
+            "1595944657.863412": {
+                "bytes": 1375700, 
+                "duration": 219, 
+                "total_bytes": 18175600, 
+                "total_duration": 7589
+            }, 
+            "1595944658.370629": {
+                "bytes": 1099800, 
+                "duration": 505, 
+                "total_bytes": 19551300, 
+                "total_duration": 7808
+            }, 
+            "1595944658.41983": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 20651100, 
+                "total_duration": 8313
+            }, 
+            "1595944658.419869": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20651100, 
+                "total_duration": 8363
+            }, 
+            "1595944658.991885": {
+                "bytes": 1423800, 
+                "duration": 572, 
+                "total_bytes": 20651100, 
+                "total_duration": 8363
+            }, 
+            "1595944659.370692": {
+                "bytes": 1250000, 
+                "duration": 379, 
+                "total_bytes": 22074900, 
+                "total_duration": 8935
+            }, 
+            "1595944659.870369": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 23324900, 
+                "total_duration": 9314
+            }, 
+            "1595944660.374111": {
+                "bytes": 425000, 
+                "duration": 501, 
+                "total_bytes": 24574900, 
+                "total_duration": 9815
+            }, 
+            "1595944660.702884": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 24999900, 
+                "total_duration": 10316
+            }, 
+            "1595944660.992248": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 24999900, 
+                "total_duration": 10647
+            }, 
+            "1595944661.643024": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 24999900, 
+                "total_duration": 10936
+            }, 
+            "1595944663.420041": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 24999900, 
+                "total_duration": 11588
+            }, 
+            "1595944663.420069": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13364
+            }, 
+            "1595944665.934273": {
+                "bytes": 0, 
+                "duration": 2514, 
+                "total_bytes": 24999900, 
+                "total_duration": 13364
+            }
+        }, 
+        "13": {
+            "1595944618.150963": {
+                "bytes": 732700, 
+                "duration": 282, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944618.151276": {
+                "bytes": 1277100, 
+                "duration": 515, 
+                "total_bytes": 732700, 
+                "total_duration": 282
+            }, 
+            "1595944618.151579": {
+                "bytes": 1277100, 
+                "duration": 529, 
+                "total_bytes": 2009800, 
+                "total_duration": 797
+            }, 
+            "1595944618.151889": {
+                "bytes": 0, 
+                "duration": 220, 
+                "total_bytes": 3286900, 
+                "total_duration": 1326
+            }, 
+            "1595944618.152235": {
+                "bytes": 1262300, 
+                "duration": 281, 
+                "total_bytes": 3286900, 
+                "total_duration": 1546
+            }, 
+            "1595944618.152566": {
+                "bytes": 1250000, 
+                "duration": 524, 
+                "total_bytes": 4549200, 
+                "total_duration": 1827
+            }, 
+            "1595944618.153152": {
+                "bytes": 1250000, 
+                "duration": 512, 
+                "total_bytes": 5799200, 
+                "total_duration": 2351
+            }, 
+            "1595944618.407399": {
+                "bytes": 1250000, 
+                "duration": 383, 
+                "total_bytes": 7049200, 
+                "total_duration": 2863
+            }, 
+            "1595944618.508819": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 8299200, 
+                "total_duration": 3246
+            }, 
+            "1595944618.508839": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8299200, 
+                "total_duration": 3348
+            }, 
+            "1595944620.932768": {
+                "bytes": 6300000, 
+                "duration": 2424, 
+                "total_bytes": 8299200, 
+                "total_duration": 3348
+            }, 
+            "1595944620.932808": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 14599200, 
+                "total_duration": 5772
+            }, 
+            "1595944621.500412": {
+                "bytes": 1250000, 
+                "duration": 567, 
+                "total_bytes": 14599200, 
+                "total_duration": 5773
+            }, 
+            "1595944621.500455": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15849200, 
+                "total_duration": 6340
+            }, 
+            "1595944622.500161": {
+                "bytes": 2500000, 
+                "duration": 1000, 
+                "total_bytes": 15849200, 
+                "total_duration": 6340
+            }, 
+            "1595944622.513996": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 18349200, 
+                "total_duration": 7340
+            }, 
+            "1595944623.409374": {
+                "bytes": 2525000, 
+                "duration": 894, 
+                "total_bytes": 18349200, 
+                "total_duration": 7354
+            }, 
+            "1595944623.409419": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20874200, 
+                "total_duration": 8248
+            }, 
+            "1595944623.501079": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 20874200, 
+                "total_duration": 8248
+            }, 
+            "1595944624.93935": {
+                "bytes": 3750000, 
+                "duration": 1436, 
+                "total_bytes": 20874200, 
+                "total_duration": 8341
+            }, 
+            "1595944625.017923": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24624200, 
+                "total_duration": 9777
+            }, 
+            "1595944625.504608": {
+                "bytes": 375000, 
+                "duration": 486, 
+                "total_bytes": 24624200, 
+                "total_duration": 9857
+            }, 
+            "1595944626.937265": {
+                "bytes": 0, 
+                "duration": 1434, 
+                "total_bytes": 24999200, 
+                "total_duration": 10343
+            }, 
+            "1595944628.409268": {
+                "bytes": 0, 
+                "duration": 1471, 
+                "total_bytes": 24999200, 
+                "total_duration": 11777
+            }, 
+            "1595944631.017626": {
+                "bytes": 0, 
+                "duration": 2609, 
+                "total_bytes": 24999200, 
+                "total_duration": 13248
+            }, 
+            "1595944652.240182": {
+                "bytes": -24347300, 
+                "duration": -15261, 
+                "total_bytes": 24999200, 
+                "total_duration": 15857
+            }, 
+            "1595944652.241065": {
+                "bytes": 2521800, 
+                "duration": 1010, 
+                "total_bytes": 651900, 
+                "total_duration": 596
+            }, 
+            "1595944652.366627": {
+                "bytes": 2501200, 
+                "duration": 607, 
+                "total_bytes": 3173700, 
+                "total_duration": 1606
+            }, 
+            "1595944652.82156": {
+                "bytes": 1250000, 
+                "duration": 498, 
+                "total_bytes": 5674900, 
+                "total_duration": 2213
+            }, 
+            "1595944652.821581": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 6924900, 
+                "total_duration": 2711
+            }, 
+            "1595944653.41559": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 6924900, 
+                "total_duration": 2711
+            }, 
+            "1595944653.823346": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 8174900, 
+                "total_duration": 3304
+            }, 
+            "1595944653.823388": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 9424900, 
+                "total_duration": 3712
+            }, 
+            "1595944654.700107": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 9424900, 
+                "total_duration": 3712
+            }, 
+            "1595944654.700159": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 10674900, 
+                "total_duration": 4589
+            }, 
+            "1595944655.70072": {
+                "bytes": 2222600, 
+                "duration": 1000, 
+                "total_bytes": 10674900, 
+                "total_duration": 4589
+            }, 
+            "1595944655.700763": {
+                "bytes": 0, 
+                "duration": 1, 
+                "total_bytes": 12897500, 
+                "total_duration": 5589
+            }, 
+            "1595944656.70633": {
+                "bytes": 2827400, 
+                "duration": 1001, 
+                "total_bytes": 12897500, 
+                "total_duration": 5590
+            }, 
+            "1595944656.706383": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15724900, 
+                "total_duration": 6591
+            }, 
+            "1595944657.645056": {
+                "bytes": 2450700, 
+                "duration": 942, 
+                "total_bytes": 15724900, 
+                "total_duration": 6591
+            }, 
+            "1595944657.863364": {
+                "bytes": 1375700, 
+                "duration": 219, 
+                "total_bytes": 18175600, 
+                "total_duration": 7533
+            }, 
+            "1595944658.370476": {
+                "bytes": 1099900, 
+                "duration": 505, 
+                "total_bytes": 19551300, 
+                "total_duration": 7752
+            }, 
+            "1595944658.420022": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 20651200, 
+                "total_duration": 8257
+            }, 
+            "1595944658.420063": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20651200, 
+                "total_duration": 8307
+            }, 
+            "1595944658.990171": {
+                "bytes": 1423700, 
+                "duration": 572, 
+                "total_bytes": 20651200, 
+                "total_duration": 8307
+            }, 
+            "1595944659.369138": {
+                "bytes": 1250000, 
+                "duration": 379, 
+                "total_bytes": 22074900, 
+                "total_duration": 8879
+            }, 
+            "1595944659.870433": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 23324900, 
+                "total_duration": 9258
+            }, 
+            "1595944660.373852": {
+                "bytes": 425000, 
+                "duration": 501, 
+                "total_bytes": 24574900, 
+                "total_duration": 9759
+            }, 
+            "1595944660.701759": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 24999900, 
+                "total_duration": 10260
+            }, 
+            "1595944660.991051": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 24999900, 
+                "total_duration": 10591
+            }, 
+            "1595944661.642976": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 24999900, 
+                "total_duration": 10880
+            }, 
+            "1595944663.419985": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 24999900, 
+                "total_duration": 11532
+            }, 
+            "1595944663.420016": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13308
+            }, 
+            "1595944665.934162": {
+                "bytes": 0, 
+                "duration": 2514, 
+                "total_bytes": 24999900, 
+                "total_duration": 13308
+            }
+        }, 
+        "14": {
+            "1595944618.050253": {
+                "bytes": 536500, 
+                "duration": 190, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944618.050841": {
+                "bytes": 1304200, 
+                "duration": 539, 
+                "total_bytes": 536500, 
+                "total_duration": 190
+            }, 
+            "1595944618.051425": {
+                "bytes": 1304200, 
+                "duration": 529, 
+                "total_bytes": 1840700, 
+                "total_duration": 729
+            }, 
+            "1595944618.052067": {
+                "bytes": 0, 
+                "duration": 219, 
+                "total_bytes": 3144900, 
+                "total_duration": 1258
+            }, 
+            "1595944618.052694": {
+                "bytes": 1294100, 
+                "duration": 281, 
+                "total_bytes": 3144900, 
+                "total_duration": 1477
+            }, 
+            "1595944618.05328": {
+                "bytes": 1285100, 
+                "duration": 524, 
+                "total_bytes": 4439000, 
+                "total_duration": 1758
+            }, 
+            "1595944618.053863": {
+                "bytes": 1291300, 
+                "duration": 513, 
+                "total_bytes": 5724100, 
+                "total_duration": 2282
+            }, 
+            "1595944618.407467": {
+                "bytes": 1283000, 
+                "duration": 383, 
+                "total_bytes": 7015400, 
+                "total_duration": 2795
+            }, 
+            "1595944618.508856": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 8298400, 
+                "total_duration": 3178
+            }, 
+            "1595944618.508876": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8298400, 
+                "total_duration": 3279
+            }, 
+            "1595944620.93538": {
+                "bytes": 6300000, 
+                "duration": 2425, 
+                "total_bytes": 8298400, 
+                "total_duration": 3279
+            }, 
+            "1595944620.935421": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 14598400, 
+                "total_duration": 5704
+            }, 
+            "1595944621.5031": {
+                "bytes": 1250000, 
+                "duration": 567, 
+                "total_bytes": 14598400, 
+                "total_duration": 5704
+            }, 
+            "1595944621.503145": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15848400, 
+                "total_duration": 6271
+            }, 
+            "1595944622.501764": {
+                "bytes": 2500000, 
+                "duration": 1000, 
+                "total_bytes": 15848400, 
+                "total_duration": 6271
+            }, 
+            "1595944622.515258": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 18348400, 
+                "total_duration": 7271
+            }, 
+            "1595944623.411087": {
+                "bytes": 2525000, 
+                "duration": 894, 
+                "total_bytes": 18348400, 
+                "total_duration": 7285
+            }, 
+            "1595944623.411131": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20873400, 
+                "total_duration": 8179
+            }, 
+            "1595944623.502637": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 20873400, 
+                "total_duration": 8179
+            }, 
+            "1595944624.939282": {
+                "bytes": 3750000, 
+                "duration": 1436, 
+                "total_bytes": 20873400, 
+                "total_duration": 8272
+            }, 
+            "1595944625.017962": {
+                "bytes": 0, 
+                "duration": 80, 
+                "total_bytes": 24623400, 
+                "total_duration": 9708
+            }, 
+            "1595944625.504799": {
+                "bytes": 375000, 
+                "duration": 486, 
+                "total_bytes": 24623400, 
+                "total_duration": 9788
+            }, 
+            "1595944626.93843": {
+                "bytes": 0, 
+                "duration": 1435, 
+                "total_bytes": 24998400, 
+                "total_duration": 10274
+            }, 
+            "1595944628.409368": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 24998400, 
+                "total_duration": 11709
+            }, 
+            "1595944631.017375": {
+                "bytes": 0, 
+                "duration": 2608, 
+                "total_bytes": 24998400, 
+                "total_duration": 13179
+            }, 
+            "1595944652.540933": {
+                "bytes": -24486700, 
+                "duration": -15261, 
+                "total_bytes": 24998400, 
+                "total_duration": 15787
+            }, 
+            "1595944652.540963": {
+                "bytes": 2595300, 
+                "duration": 1010, 
+                "total_bytes": 511700, 
+                "total_duration": 526
+            }, 
+            "1595944652.540986": {
+                "bytes": 2567900, 
+                "duration": 767, 
+                "total_bytes": 3107000, 
+                "total_duration": 1536
+            }, 
+            "1595944652.822634": {
+                "bytes": 1250000, 
+                "duration": 338, 
+                "total_bytes": 5674900, 
+                "total_duration": 2303
+            }, 
+            "1595944652.822655": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 6924900, 
+                "total_duration": 2641
+            }, 
+            "1595944653.415611": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 6924900, 
+                "total_duration": 2641
+            }, 
+            "1595944653.82538": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 8174900, 
+                "total_duration": 3234
+            }, 
+            "1595944653.825419": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 9424900, 
+                "total_duration": 3642
+            }, 
+            "1595944654.702761": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 9424900, 
+                "total_duration": 3642
+            }, 
+            "1595944654.702807": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 10674900, 
+                "total_duration": 4519
+            }, 
+            "1595944655.703392": {
+                "bytes": 2222400, 
+                "duration": 1001, 
+                "total_bytes": 10674900, 
+                "total_duration": 4519
+            }, 
+            "1595944655.703439": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 12897300, 
+                "total_duration": 5520
+            }, 
+            "1595944656.706639": {
+                "bytes": 2827600, 
+                "duration": 1001, 
+                "total_bytes": 12897300, 
+                "total_duration": 5520
+            }, 
+            "1595944656.706701": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15724900, 
+                "total_duration": 6521
+            }, 
+            "1595944657.646539": {
+                "bytes": 2450600, 
+                "duration": 942, 
+                "total_bytes": 15724900, 
+                "total_duration": 6521
+            }, 
+            "1595944657.864723": {
+                "bytes": 1375500, 
+                "duration": 219, 
+                "total_bytes": 18175500, 
+                "total_duration": 7463
+            }, 
+            "1595944658.370519": {
+                "bytes": 1100000, 
+                "duration": 505, 
+                "total_bytes": 19551000, 
+                "total_duration": 7682
+            }, 
+            "1595944658.421708": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 20651000, 
+                "total_duration": 8187
+            }, 
+            "1595944658.421753": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20651000, 
+                "total_duration": 8237
+            }, 
+            "1595944658.991975": {
+                "bytes": 1423900, 
+                "duration": 572, 
+                "total_bytes": 20651000, 
+                "total_duration": 8237
+            }, 
+            "1595944659.370657": {
+                "bytes": 1250000, 
+                "duration": 379, 
+                "total_bytes": 22074900, 
+                "total_duration": 8809
+            }, 
+            "1595944659.872247": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 23324900, 
+                "total_duration": 9188
+            }, 
+            "1595944660.373309": {
+                "bytes": 425000, 
+                "duration": 501, 
+                "total_bytes": 24574900, 
+                "total_duration": 9689
+            }, 
+            "1595944660.702859": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 24999900, 
+                "total_duration": 10190
+            }, 
+            "1595944660.992148": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 24999900, 
+                "total_duration": 10521
+            }, 
+            "1595944661.643012": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 24999900, 
+                "total_duration": 10810
+            }, 
+            "1595944663.421326": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 24999900, 
+                "total_duration": 11462
+            }, 
+            "1595944663.421362": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13238
+            }, 
+            "1595944665.932827": {
+                "bytes": 0, 
+                "duration": 2514, 
+                "total_bytes": 24999900, 
+                "total_duration": 13238
+            }
+        }, 
+        "15": {
+            "1595944617.623833": {
+                "bytes": 381900, 
+                "duration": 157, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944617.624791": {
+                "bytes": 0, 
+                "duration": 516, 
+                "total_bytes": 381900, 
+                "total_duration": 157
+            }, 
+            "1595944617.625701": {
+                "bytes": 2636200, 
+                "duration": 530, 
+                "total_bytes": 381900, 
+                "total_duration": 673
+            }, 
+            "1595944617.630446": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 3018100, 
+                "total_duration": 1203
+            }, 
+            "1595944617.631438": {
+                "bytes": 1325900, 
+                "duration": 298, 
+                "total_bytes": 3018100, 
+                "total_duration": 1421
+            }, 
+            "1595944617.632377": {
+                "bytes": 1320200, 
+                "duration": 507, 
+                "total_bytes": 4344000, 
+                "total_duration": 1719
+            }, 
+            "1595944618.068259": {
+                "bytes": 1332800, 
+                "duration": 513, 
+                "total_bytes": 5664200, 
+                "total_duration": 2226
+            }, 
+            "1595944618.068853": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 6997000, 
+                "total_duration": 2739
+            }, 
+            "1595944618.407483": {
+                "bytes": 1301400, 
+                "duration": 383, 
+                "total_bytes": 6997000, 
+                "total_duration": 2739
+            }, 
+            "1595944618.508735": {
+                "bytes": 0, 
+                "duration": 101, 
+                "total_bytes": 8298400, 
+                "total_duration": 3122
+            }, 
+            "1595944618.508757": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8298400, 
+                "total_duration": 3223
+            }, 
+            "1595944620.935457": {
+                "bytes": 6300000, 
+                "duration": 2425, 
+                "total_bytes": 8298400, 
+                "total_duration": 3223
+            }, 
+            "1595944620.935501": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 14598400, 
+                "total_duration": 5648
+            }, 
+            "1595944621.503181": {
+                "bytes": 1250000, 
+                "duration": 567, 
+                "total_bytes": 14598400, 
+                "total_duration": 5648
+            }, 
+            "1595944621.503223": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15848400, 
+                "total_duration": 6215
+            }, 
+            "1595944622.501812": {
+                "bytes": 2500000, 
+                "duration": 1000, 
+                "total_bytes": 15848400, 
+                "total_duration": 6215
+            }, 
+            "1595944622.515224": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 18348400, 
+                "total_duration": 7215
+            }, 
+            "1595944623.411166": {
+                "bytes": 2525000, 
+                "duration": 894, 
+                "total_bytes": 18348400, 
+                "total_duration": 7229
+            }, 
+            "1595944623.411206": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20873400, 
+                "total_duration": 8123
+            }, 
+            "1595944623.50267": {
+                "bytes": 0, 
+                "duration": 93, 
+                "total_bytes": 20873400, 
+                "total_duration": 8123
+            }, 
+            "1595944624.939383": {
+                "bytes": 3750000, 
+                "duration": 1437, 
+                "total_bytes": 20873400, 
+                "total_duration": 8216
+            }, 
+            "1595944625.01803": {
+                "bytes": 0, 
+                "duration": 79, 
+                "total_bytes": 24623400, 
+                "total_duration": 9653
+            }, 
+            "1595944625.505279": {
+                "bytes": 375000, 
+                "duration": 486, 
+                "total_bytes": 24623400, 
+                "total_duration": 9732
+            }, 
+            "1595944626.938369": {
+                "bytes": 0, 
+                "duration": 1435, 
+                "total_bytes": 24998400, 
+                "total_duration": 10218
+            }, 
+            "1595944628.409345": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 24998400, 
+                "total_duration": 11653
+            }, 
+            "1595944631.017691": {
+                "bytes": 0, 
+                "duration": 2609, 
+                "total_bytes": 24998400, 
+                "total_duration": 13123
+            }, 
+            "1595944652.458955": {
+                "bytes": -24829600, 
+                "duration": -15263, 
+                "total_bytes": 24998400, 
+                "total_duration": 15732
+            }, 
+            "1595944652.459568": {
+                "bytes": 2828600, 
+                "duration": 1011, 
+                "total_bytes": 168800, 
+                "total_duration": 469
+            }, 
+            "1595944652.728205": {
+                "bytes": 2641400, 
+                "duration": 1011, 
+                "total_bytes": 2997400, 
+                "total_duration": 1480
+            }, 
+            "1595944652.822674": {
+                "bytes": 1286100, 
+                "duration": 93, 
+                "total_bytes": 5638800, 
+                "total_duration": 2491
+            }, 
+            "1595944652.822698": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 6924900, 
+                "total_duration": 2584
+            }, 
+            "1595944653.415639": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 6924900, 
+                "total_duration": 2584
+            }, 
+            "1595944653.825455": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 8174900, 
+                "total_duration": 3177
+            }, 
+            "1595944653.8255": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 9424900, 
+                "total_duration": 3585
+            }, 
+            "1595944654.702683": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 9424900, 
+                "total_duration": 3585
+            }, 
+            "1595944654.702725": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 10674900, 
+                "total_duration": 4462
+            }, 
+            "1595944655.703481": {
+                "bytes": 2222600, 
+                "duration": 1001, 
+                "total_bytes": 10674900, 
+                "total_duration": 4462
+            }, 
+            "1595944655.703531": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 12897500, 
+                "total_duration": 5463
+            }, 
+            "1595944656.706744": {
+                "bytes": 2827400, 
+                "duration": 1002, 
+                "total_bytes": 12897500, 
+                "total_duration": 5463
+            }, 
+            "1595944656.706805": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15724900, 
+                "total_duration": 6465
+            }, 
+            "1595944657.646581": {
+                "bytes": 2450600, 
+                "duration": 941, 
+                "total_bytes": 15724900, 
+                "total_duration": 6465
+            }, 
+            "1595944657.864652": {
+                "bytes": 1375700, 
+                "duration": 219, 
+                "total_bytes": 18175500, 
+                "total_duration": 7406
+            }, 
+            "1595944658.370553": {
+                "bytes": 1099900, 
+                "duration": 506, 
+                "total_bytes": 19551200, 
+                "total_duration": 7625
+            }, 
+            "1595944658.421803": {
+                "bytes": 0, 
+                "duration": 50, 
+                "total_bytes": 20651100, 
+                "total_duration": 8131
+            }, 
+            "1595944658.421844": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20651100, 
+                "total_duration": 8181
+            }, 
+            "1595944658.991844": {
+                "bytes": 1423800, 
+                "duration": 571, 
+                "total_bytes": 20651100, 
+                "total_duration": 8181
+            }, 
+            "1595944659.370622": {
+                "bytes": 1250000, 
+                "duration": 379, 
+                "total_bytes": 22074900, 
+                "total_duration": 8752
+            }, 
+            "1595944659.872303": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 23324900, 
+                "total_duration": 9131
+            }, 
+            "1595944660.373113": {
+                "bytes": 425000, 
+                "duration": 501, 
+                "total_bytes": 24574900, 
+                "total_duration": 9632
+            }, 
+            "1595944660.702798": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 24999900, 
+                "total_duration": 10133
+            }, 
+            "1595944660.992184": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 24999900, 
+                "total_duration": 10464
+            }, 
+            "1595944661.642993": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 24999900, 
+                "total_duration": 10753
+            }, 
+            "1595944663.421403": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 24999900, 
+                "total_duration": 11405
+            }, 
+            "1595944663.421432": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13181
+            }, 
+            "1595944665.934052": {
+                "bytes": 0, 
+                "duration": 2514, 
+                "total_bytes": 24999900, 
+                "total_duration": 13181
+            }
+        }, 
+        "16": {
+            "1595944618.177592": {
+                "bytes": 0, 
+                "duration": 81, 
+                "total_bytes": 0, 
+                "total_duration": 0
+            }, 
+            "1595944618.177618": {
+                "bytes": 1576300, 
+                "duration": 516, 
+                "total_bytes": 0, 
+                "total_duration": 81
+            }, 
+            "1595944618.177641": {
+                "bytes": 0, 
+                "duration": 530, 
+                "total_bytes": 1576300, 
+                "total_duration": 597
+            }, 
+            "1595944618.177661": {
+                "bytes": 0, 
+                "duration": 218, 
+                "total_bytes": 1576300, 
+                "total_duration": 1127
+            }, 
+            "1595944618.177687": {
+                "bytes": 2714900, 
+                "duration": 298, 
+                "total_bytes": 1576300, 
+                "total_duration": 1345
+            }, 
+            "1595944618.177709": {
+                "bytes": 1355300, 
+                "duration": 508, 
+                "total_bytes": 4291200, 
+                "total_duration": 1643
+            }, 
+            "1595944618.177731": {
+                "bytes": 1351600, 
+                "duration": 512, 
+                "total_bytes": 5646500, 
+                "total_duration": 2151
+            }, 
+            "1595944618.407419": {
+                "bytes": 1301400, 
+                "duration": 382, 
+                "total_bytes": 6998100, 
+                "total_duration": 2663
+            }, 
+            "1595944618.508774": {
+                "bytes": 0, 
+                "duration": 102, 
+                "total_bytes": 8299500, 
+                "total_duration": 3045
+            }, 
+            "1595944618.508796": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 8299500, 
+                "total_duration": 3147
+            }, 
+            "1595944620.935535": {
+                "bytes": 6300000, 
+                "duration": 2425, 
+                "total_bytes": 8299500, 
+                "total_duration": 3147
+            }, 
+            "1595944620.935576": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 14599500, 
+                "total_duration": 5572
+            }, 
+            "1595944621.503022": {
+                "bytes": 1250000, 
+                "duration": 567, 
+                "total_bytes": 14599500, 
+                "total_duration": 5572
+            }, 
+            "1595944621.503063": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15849500, 
+                "total_duration": 6139
+            }, 
+            "1595944622.501849": {
+                "bytes": 2500000, 
+                "duration": 1000, 
+                "total_bytes": 15849500, 
+                "total_duration": 6139
+            }, 
+            "1595944622.515174": {
+                "bytes": 0, 
+                "duration": 14, 
+                "total_bytes": 18349500, 
+                "total_duration": 7139
+            }, 
+            "1595944623.409295": {
+                "bytes": 2525000, 
+                "duration": 893, 
+                "total_bytes": 18349500, 
+                "total_duration": 7153
+            }, 
+            "1595944623.409336": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20874500, 
+                "total_duration": 8046
+            }, 
+            "1595944623.502565": {
+                "bytes": 0, 
+                "duration": 94, 
+                "total_bytes": 20874500, 
+                "total_duration": 8046
+            }, 
+            "1595944624.939241": {
+                "bytes": 3750000, 
+                "duration": 1437, 
+                "total_bytes": 20874500, 
+                "total_duration": 8140
+            }, 
+            "1595944625.018065": {
+                "bytes": 0, 
+                "duration": 78, 
+                "total_bytes": 24624500, 
+                "total_duration": 9577
+            }, 
+            "1595944625.505107": {
+                "bytes": 375000, 
+                "duration": 486, 
+                "total_bytes": 24624500, 
+                "total_duration": 9655
+            }, 
+            "1595944626.938455": {
+                "bytes": 0, 
+                "duration": 1436, 
+                "total_bytes": 24999500, 
+                "total_duration": 10141
+            }, 
+            "1595944628.407865": {
+                "bytes": 0, 
+                "duration": 1470, 
+                "total_bytes": 24999500, 
+                "total_duration": 11577
+            }, 
+            "1595944631.017263": {
+                "bytes": 0, 
+                "duration": 2609, 
+                "total_bytes": 24999500, 
+                "total_duration": 13047
+            }, 
+            "1595944652.492226": {
+                "bytes": -24831700, 
+                "duration": -15250, 
+                "total_bytes": 24999500, 
+                "total_duration": 15656
+            }, 
+            "1595944652.492553": {
+                "bytes": 2740500, 
+                "duration": 1011, 
+                "total_bytes": 167800, 
+                "total_duration": 406
+            }, 
+            "1595944652.52492": {
+                "bytes": 2714900, 
+                "duration": 767, 
+                "total_bytes": 2908300, 
+                "total_duration": 1417
+            }, 
+            "1595944652.822717": {
+                "bytes": 1301700, 
+                "duration": 337, 
+                "total_bytes": 5623200, 
+                "total_duration": 2184
+            }, 
+            "1595944652.822743": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 6924900, 
+                "total_duration": 2521
+            }, 
+            "1595944653.414657": {
+                "bytes": 1250000, 
+                "duration": 593, 
+                "total_bytes": 6924900, 
+                "total_duration": 2521
+            }, 
+            "1595944653.825535": {
+                "bytes": 1250000, 
+                "duration": 408, 
+                "total_bytes": 8174900, 
+                "total_duration": 3114
+            }, 
+            "1595944653.825577": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 9424900, 
+                "total_duration": 3522
+            }, 
+            "1595944654.702918": {
+                "bytes": 1250000, 
+                "duration": 877, 
+                "total_bytes": 9424900, 
+                "total_duration": 3522
+            }, 
+            "1595944654.702961": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 10674900, 
+                "total_duration": 4399
+            }, 
+            "1595944655.70357": {
+                "bytes": 2222600, 
+                "duration": 1001, 
+                "total_bytes": 10674900, 
+                "total_duration": 4399
+            }, 
+            "1595944655.703615": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 12897500, 
+                "total_duration": 5400
+            }, 
+            "1595944656.706533": {
+                "bytes": 2827400, 
+                "duration": 1002, 
+                "total_bytes": 12897500, 
+                "total_duration": 5400
+            }, 
+            "1595944656.706596": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 15724900, 
+                "total_duration": 6402
+            }, 
+            "1595944657.646624": {
+                "bytes": 2450600, 
+                "duration": 941, 
+                "total_bytes": 15724900, 
+                "total_duration": 6402
+            }, 
+            "1595944657.86476": {
+                "bytes": 1375800, 
+                "duration": 219, 
+                "total_bytes": 18175500, 
+                "total_duration": 7343
+            }, 
+            "1595944658.370595": {
+                "bytes": 1099800, 
+                "duration": 506, 
+                "total_bytes": 19551300, 
+                "total_duration": 7562
+            }, 
+            "1595944658.419945": {
+                "bytes": 0, 
+                "duration": 49, 
+                "total_bytes": 20651100, 
+                "total_duration": 8068
+            }, 
+            "1595944658.419988": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 20651100, 
+                "total_duration": 8117
+            }, 
+            "1595944658.992018": {
+                "bytes": 1423800, 
+                "duration": 572, 
+                "total_bytes": 20651100, 
+                "total_duration": 8117
+            }, 
+            "1595944659.370583": {
+                "bytes": 1250000, 
+                "duration": 379, 
+                "total_bytes": 22074900, 
+                "total_duration": 8689
+            }, 
+            "1595944659.872185": {
+                "bytes": 1250000, 
+                "duration": 501, 
+                "total_bytes": 23324900, 
+                "total_duration": 9068
+            }, 
+            "1595944660.373573": {
+                "bytes": 425000, 
+                "duration": 501, 
+                "total_bytes": 24574900, 
+                "total_duration": 9569
+            }, 
+            "1595944660.702832": {
+                "bytes": 0, 
+                "duration": 331, 
+                "total_bytes": 24999900, 
+                "total_duration": 10070
+            }, 
+            "1595944660.992218": {
+                "bytes": 0, 
+                "duration": 289, 
+                "total_bytes": 24999900, 
+                "total_duration": 10401
+            }, 
+            "1595944661.642397": {
+                "bytes": 0, 
+                "duration": 652, 
+                "total_bytes": 24999900, 
+                "total_duration": 10690
+            }, 
+            "1595944663.41988": {
+                "bytes": 0, 
+                "duration": 1776, 
+                "total_bytes": 24999900, 
+                "total_duration": 11342
+            }, 
+            "1595944663.419959": {
+                "bytes": 0, 
+                "duration": 0, 
+                "total_bytes": 24999900, 
+                "total_duration": 13118
+            }, 
+            "1595944665.933931": {
+                "bytes": 0, 
+                "duration": 2514, 
+                "total_bytes": 24999900, 
+                "total_duration": 13118
+            }
+        }
+    }, 
+    "overhead": {
+        "1595944602.341245": 0, 
+        "1595944603.376716": 0, 
+        "1595944604.379306": 0, 
+        "1595944605.382309": 0, 
+        "1595944606.38244": 7, 
+        "1595944607.382455": 7, 
+        "1595944608.400933": 7, 
+        "1595944609.40876": 7, 
+        "1595944610.426025": 7, 
+        "1595944611.434978": 12, 
+        "1595944612.455369": 12, 
+        "1595944613.459272": 19, 
+        "1595944614.459289": 29, 
+        "1595944615.471071": 39, 
+        "1595944616.487387": 49, 
+        "1595944617.492036": 62, 
+        "1595944618.492908": 75, 
+        "1595944619.495243": 85, 
+        "1595944620.496821": 85, 
+        "1595944621.499206": 105, 
+        "1595944622.499412": 110, 
+        "1595944623.499959": 127, 
+        "1595944624.499979": 132, 
+        "1595944625.500827": 142, 
+        "1595944626.501463": 147, 
+        "1595944627.501486": 152, 
+        "1595944628.501525": 159, 
+        "1595944629.502882": 159, 
+        "1595944630.502905": 159, 
+        "1595944631.503574": 159, 
+        "1595944632.50495": 159, 
+        "1595944633.605667": 166, 
+        "1595944634.608096": 166, 
+        "1595944635.608131": 166, 
+        "1595944636.608497": 166, 
+        "1595944637.608524": 166, 
+        "1595944638.617669": 173, 
+        "1595944639.618996": 173, 
+        "1595944640.621214": 173, 
+        "1595944641.622955": 173, 
+        "1595944642.623405": 173, 
+        "1595944643.623433": 180, 
+        "1595944644.623463": 180, 
+        "1595944645.6366": 180, 
+        "1595944646.645142": 180, 
+        "1595944647.662619": 185, 
+        "1595944648.662649": 197, 
+        "1595944649.677927": 197, 
+        "1595944650.687595": 207, 
+        "1595944651.697596": 213, 
+        "1595944652.697613": 224, 
+        "1595944653.697637": 242, 
+        "1595944654.697663": 252, 
+        "1595944655.698016": 262, 
+        "1595944656.698074": 272, 
+        "1595944657.698112": 287, 
+        "1595944658.69813": 309, 
+        "1595944659.699862": 319, 
+        "1595944660.6999": 329, 
+        "1595944661.699923": 344, 
+        "1595944662.699953": 344, 
+        "1595944663.749548": 356, 
+        "1595944664.749573": 356, 
+        "1595944665.749809": 356, 
+        "1595944666.749836": 356, 
+        "1595944667.75025": 356, 
+        "1595944668.75027": 363, 
+        "1595944669.750297": 363, 
+        "1595944670.751592": 363, 
+        "1595944671.751726": 363
+    }
+}

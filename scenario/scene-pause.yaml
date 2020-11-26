@@ -1,0 +1,33 @@
+root:
+  h1a: # 20Mbps
+    host: h1
+    interface: h1-eth0
+    start: 0
+    stop: 10
+    step: 0.01
+    number: 250
+    packet: h1h8l800b
+  h2a:  # 20Mbps
+    host: h2
+    interface: h2-eth0
+    start: 5
+    stop: 15
+    step: 0.01
+    number: 250
+    packet: h2h7l800b
+  h1b: # 20Mbps
+    host: h1
+    interface: h1-eth0
+    start: 35
+    stop: 45
+    step: 0.01
+    number: 250
+    packet: h1h8l800b
+  h2b:  # 20Mbps
+    host: h2
+    interface: h2-eth0
+    start: 40
+    stop: 50
+    step: 0.01
+    number: 250
+    packet: h2h7l800b

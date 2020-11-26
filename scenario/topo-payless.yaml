@@ -1,0 +1,59 @@
+root:
+  name: "Payless"
+  description: "Payless Mininet Configuration File"
+  topology:
+    switches:
+      - name: s0
+        dpid: 1
+        enabled: True
+      - name: s1
+        dpid: 2
+        enabled: True
+      - name: s2
+        dpid: 3
+        enabled: True
+      - name: s3
+        dpid: 4
+        enabled: True
+      - name: s4
+        dpid: 5
+        enabled: True
+      - name: s5
+        dpid: 6
+        enabled: True
+      - name: s6
+        dpid: 7
+        enabled: True
+    hosts:
+      - name: h1
+        ip: "11.0.0.1/8"
+      - name: h2
+        ip: "22.0.0.1/8"
+      - name: h3
+        ip: "33.0.0.1/8"
+      - name: h4
+        ip: "44.0.0.1/8"
+      - name: h5
+        ip: "55.0.0.1/8"
+      - name: h6
+        ip: "66.0.0.1/8"
+      - name: h7
+        ip: "77.0.0.1/8"
+      - name: h8
+        ip: "88.0.0.1/8"
+    links:
+      - [s0, s1, 1000]
+      - [s0, s2, 1000]
+      - [s1, s3, 1000]
+      - [s1, s4, 1000]
+      - [s2, s5, 1000]
+      - [s2, s6, 1000]
+      - [s3, h1, 1000]
+      - [s3, h2, 1000]
+      - [s4, h3, 1000]
+      - [s4, h4, 1000]
+      - [s5, h5, 1000]
+      - [s5, h6, 1000]
+      - [s6, h7, 1000]
+      - [s6, h8, 1000]
+

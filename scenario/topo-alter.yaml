@@ -1,0 +1,17 @@
+root:
+  name: "alternative"
+  description: "An alternative Mininet Configuration File"
+  topology:
+    switches:
+      - name: s0
+        dpid: 1
+        enabled: True
+    hosts:
+      - name: h1
+        ip: "11.0.0.1/8"
+      - name: h8
+        ip: "88.0.0.1/8"
+    links:
+      - [h1, s0, 1000]
+      - [s0, h8, 1000]
+

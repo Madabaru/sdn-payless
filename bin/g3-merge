@@ -1,0 +1,76 @@
+import json
+import argparse
+from g3_payless.visualization.link_utilization import load_stats, \
+    calculate_total_link_utilization, normalize_timestamps
+from g3_payless.visualization.overhead import normalize as normalize_overhead
+
+if __name__ == "__main__":
+
+    # WARNING: THIS BREAKS VISUALIZATION FOR PER-FLOW and PER-IPV4
+    # This is only suitable for total link utilization and overhead
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("to_merge", nargs="+")
+    parser.add_argument("-o", "--out", default="merged.json")
+    args = parser.parse_args()
+
+    algorithm = "N/A"
+    raw_stats = {}
+    link_file_stats = {}
+    overhead_stats = {}
+    for _file in args.to_merge:
+        with open(_file, "r") as f:
+            raw = json.load(f)
+            raw_stats[_file] = raw
+            algorithm = raw["algorithm"]
+        link_file_stats[_file] = \
+            normalize_timestamps(load_stats(_file, True)[0])
+        overhead_stats[_file] = normalize_overhead(raw["overhead"])
+    link_stats = calculate_total_link_utilization(link_file_stats)
+
+    collected_stats = {
+        "flow_stats": {},
+        "overhead": {}
+    }
+    for _file in args.to_merge:
+
+        # Merge flow_stats
+        for timestamp, byte_count in link_stats[_file].items():
+            if timestamp not in collected_stats["flow_stats"]:
+                collected_stats["flow_stats"][timestamp] = []
+            collected_stats["flow_stats"][timestamp].append(byte_count)
+
+        # Merge overhead
+        for timestamp, overhead_count in overhead_stats[_file].items():
+            if timestamp not in collected_stats["overhead"]:
+                collected_stats["overhead"][timestamp] = []
+            collected_stats["overhead"][timestamp].append(overhead_count)
+
+    finalized = {
+        "flow_info": {"0": {
+            "flow_id": 0,
+            "ipv4_src": ["11.0.0.0", "255.0.0.0"],
+            "ipv4_dst": ["88.0.0.0", "255.0.0.0"],
+            "switch_id": 1
+        }},
+        "flow_stats": {"0": {}},
+        "overhead": {},
+        "algorithm": algorithm
+    }
+
+    for key in ["flow_stats", "overhead"]:
+        for timestamp, datapoints in collected_stats[key].items():
+            datapoints.sort()
+            median = datapoints[int((len(datapoints) - 1) / 2)]
+
+            if key == "flow_stats":
+                # noinspection PyTypeChecker
+                finalized[key]["0"][timestamp / 1000] = {
+                    "bytes": median,
+                    "duration": 0
+                }
+            else:
+                finalized[key][timestamp] = median
+
+    with open(args.out, "w") as f:
+        json.dump(finalized, f, indent=4, sort_keys=True)

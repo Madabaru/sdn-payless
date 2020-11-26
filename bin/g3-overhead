@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+import argparse
+from g3_payless.visualization.overhead import show_overhead_stats
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("mode", choices={"cummulative", "relative"})
+    parser.add_argument("stats_files", nargs="+")
+    parser.add_argument("-o", "--out")
+    parser.add_argument("--default-style", action="store_true")
+    args = parser.parse_args()
+    show_overhead_stats(
+        args.mode,
+        args.stats_files,
+        args.out,
+        args.default_style
+    )
