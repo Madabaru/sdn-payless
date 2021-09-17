@@ -1,15 +1,5 @@
 # Implementation of "Payless: A Low Cost Monitoring Framework for Software Defined Networks"
 
-Group 3 - Felix John, Hermann Krumrey, Mo Shen
-
-## External Links
-
-* [[Google Slides] Presentation 1 - Intro](https://docs.google.com/presentation/d/1GwGdhPBklX1a0Mc3mPx120JL4HVXniASx0nQSMeUonY/edit?usp=sharing)
-* [[Google Slides] Presentation 2 - Workplan](https://docs.google.com/presentation/d/1cOJV15FTW7nduS-Dd5oE0FRfpul-1NqREycMjdPl5Ws/edit?usp=sharing)
-* [[Google Slides] Presentation 3 - Current State](https://docs.google.com/presentation/d/1nrHpLqo-6GAfGaU2D17n2Hxj6MBwZbVdCZiC_TzPji8/edit?usp=sharing)
-* [[Google Slides] Presentation 4 - Final](https://docs.google.com/presentation/d/1i_zV9SfdHYlEqAajD4VDQFWmIu8YRToBWWcRdkgP1ck/edit?usp=sharing)
-* [[Overleaf]Report](https://www.overleaf.com/6727518956mwrsttxfzxgm)
-
 ## Basic Usage / Running Experiments
 
 To run an experiment, first set up the environment using
